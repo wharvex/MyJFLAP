@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,23 +15,17 @@
  */
 
 
-
-
-
-package gui.environment;
+package org.wharvex.jflap.gui.environment;
 
 import gui.pumping.PumpingLemmaChooser;
 
 /**
- * An environment for {@link pumping.PumpingLemma}s. 
- * 
- * @author Jinghui Lim
+ * An environment for {@link pumping.PumpingLemma}s.
  *
+ * @author Jinghui Lim
  */
-public class PumpingLemmaEnvironment extends Environment 
-{
-    public PumpingLemmaEnvironment(PumpingLemmaChooser lemma) 
-    {
-        super(lemma);
-    }
+public class PumpingLemmaEnvironment extends Environment {
+  public PumpingLemmaEnvironment(PumpingLemmaChooser lemma) {
+    super(lemma);
+  }
 }

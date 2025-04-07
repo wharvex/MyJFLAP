@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,17 +15,14 @@
  */
 
 
-
-
-
-package gui.environment;
+package org.wharvex.jflap.gui.environment;
 
 import java.util.EventListener;
 
 /**
  * An interface that those interested in changes in the file of an environment
  * should implement.
- * 
+ *
  * @see gui.environment.FileChangeEvent
  * @see gui.environment.Environment
  * @see gui.environment.Environment#setFile
@@ -33,11 +30,10 @@ import java.util.EventListener;
  */
 
 public interface FileChangeListener extends EventListener {
-	/**
-	 * Registers with the listener that an event has occurred.
-	 * 
-	 * @param event
-	 *            the event
-	 */
-	public void fileChanged(FileChangeEvent event);
+  /**
+   * Registers with the listener that an event has occurred.
+   *
+   * @param event the event
+   */
+  public void fileChanged(FileChangeEvent event);
 }
