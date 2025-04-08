@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 /**
  * A node object is a data structure used in graph algorithms. It stores a State

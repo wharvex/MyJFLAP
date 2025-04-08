@@ -17,7 +17,7 @@
 
 
 
-package pumping;
+package org.wharvex.jflap.pumping;
 
 import pumping.reg.*;
 import pumping.cf.*;

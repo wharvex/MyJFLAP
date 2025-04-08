@@ -18,7 +18,7 @@
 
 
 
-package gui;
+package org.wharvex.jflap.gui;
 
 import javax.swing.AbstractAction;
 

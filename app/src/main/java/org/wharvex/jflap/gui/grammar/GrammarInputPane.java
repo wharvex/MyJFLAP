@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar;
+package org.wharvex.jflap.gui.grammar;
 
 import grammar.Grammar;
 import grammar.TuringChecker;

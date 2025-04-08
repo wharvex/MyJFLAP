@@ -18,7 +18,7 @@
 
 
 
-package gui.sim;
+package org.wharvex.jflap.gui.sim;
 
 import java.awt.Color;
 import java.awt.Dimension;

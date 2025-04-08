@@ -18,7 +18,7 @@
 
 
 
-package gui;
+package org.wharvex.jflap.gui;
 
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;

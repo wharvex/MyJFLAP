@@ -17,7 +17,7 @@
 
 
 
-package gui.deterministic;
+package org.wharvex.jflap.gui.deterministic;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

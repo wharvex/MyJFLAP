@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 /**
  * This lambda checker factory returns a lambda transition checker for the type

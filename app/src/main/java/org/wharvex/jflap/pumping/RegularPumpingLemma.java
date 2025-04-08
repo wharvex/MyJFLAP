@@ -18,7 +18,7 @@
 
 
 
-package pumping;
+package org.wharvex.jflap.pumping;
 
 import gui.environment.Universe;
 import java.io.Serializable;

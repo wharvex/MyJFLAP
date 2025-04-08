@@ -18,7 +18,7 @@
 
 
 
-package automata.fsa;
+package org.wharvex.jflap.automata.fsa;
 
 import grammar.Production;
 import grammar.reg.RegularGrammar;

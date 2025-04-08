@@ -18,7 +18,7 @@
 
 
 
-package gui.editor;
+package org.wharvex.jflap.gui.editor;
 
 import automata.Automaton;
 import gui.SuperMouseAdapter;

@@ -18,7 +18,7 @@
 
 
 
-package gui.regular;
+package org.wharvex.jflap.gui.regular;
 
 import gui.editor.TransitionTool;
 import gui.viewer.AutomatonDrawer;

@@ -17,7 +17,7 @@
 
 
 
-package gui;
+package org.wharvex.jflap.gui;
 
 import gui.action.BatchMultipleSimulateAction;
 import gui.action.MultipleSimulateAction;

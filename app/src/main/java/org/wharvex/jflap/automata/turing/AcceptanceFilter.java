@@ -18,7 +18,7 @@
 
 
 
-package automata.turing;
+package org.wharvex.jflap.automata.turing;
 public interface AcceptanceFilter{
     boolean accept(TMConfiguration tmc);
     String getName();

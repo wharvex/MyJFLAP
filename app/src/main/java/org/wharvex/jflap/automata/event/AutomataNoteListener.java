@@ -18,7 +18,7 @@
 
 
 
-package automata.event;
+package org.wharvex.jflap.automata.event;
 
 import java.util.EventListener;
 

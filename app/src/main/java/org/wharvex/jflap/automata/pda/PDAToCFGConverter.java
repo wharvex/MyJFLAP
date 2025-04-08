@@ -18,7 +18,7 @@
 
 
 
-package automata.pda;
+package org.wharvex.jflap.automata.pda;
 
 import grammar.Production;
 import grammar.cfg.ContextFreeGrammar;

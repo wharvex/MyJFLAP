@@ -18,7 +18,7 @@
 
 
 
-package automata.vdg;
+package org.wharvex.jflap.automata.vdg;
 
 import automata.Transition;
 import automata.State;

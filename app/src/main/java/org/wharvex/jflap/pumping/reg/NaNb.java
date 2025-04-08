@@ -18,7 +18,7 @@
 
 
 
-package pumping.reg;
+package org.wharvex.jflap.pumping.reg;
 
 import pumping.LemmaMath;
 import pumping.RegularPumpingLemma;

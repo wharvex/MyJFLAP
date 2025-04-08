@@ -17,7 +17,7 @@
 
 
 
-package gui.editor;
+package org.wharvex.jflap.gui.editor;
 
 import gui.environment.Universe;
 import gui.environment.Profile;

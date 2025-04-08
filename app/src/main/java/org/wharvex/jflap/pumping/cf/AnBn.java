@@ -18,7 +18,7 @@
 
 
 
-package pumping.cf;
+package org.wharvex.jflap.pumping.cf;
 
 import pumping.Case;
 import pumping.ContextFreePumpingLemma;

@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.parse;
+package org.wharvex.jflap.gui.grammar.parse;
 
 import javax.swing.tree.*;
 

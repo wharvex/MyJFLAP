@@ -18,7 +18,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import pumping.cf.*;
 import java.util.ArrayList;

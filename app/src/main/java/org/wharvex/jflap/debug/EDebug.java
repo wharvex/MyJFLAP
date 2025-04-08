@@ -17,7 +17,7 @@
 
 
 
-package debug;
+package org.wharvex.jflap.debug;
 
 public class EDebug {
 	

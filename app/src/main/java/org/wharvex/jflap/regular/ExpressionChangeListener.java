@@ -18,7 +18,7 @@
 
 
 
-package regular;
+package org.wharvex.jflap.regular;
 
 import java.util.EventListener;
 

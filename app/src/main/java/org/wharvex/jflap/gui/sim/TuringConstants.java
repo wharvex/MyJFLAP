@@ -18,7 +18,7 @@
 
 
 
-package gui.sim;
+package org.wharvex.jflap.gui.sim;
 
 /**
  * This interface holds constants necessary for the drawing of configuration

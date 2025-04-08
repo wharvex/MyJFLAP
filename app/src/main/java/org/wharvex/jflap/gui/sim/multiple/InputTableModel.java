@@ -18,7 +18,7 @@
 
 
 
-package gui.sim.multiple;
+package org.wharvex.jflap.gui.sim.multiple;
 
 import grammar.Grammar;
 import gui.GrowableTableModel;

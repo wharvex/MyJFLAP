@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.transform;
+package org.wharvex.jflap.gui.grammar.transform;
 
 import grammar.*;
 import gui.*;

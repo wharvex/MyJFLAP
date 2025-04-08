@@ -18,7 +18,7 @@
 
 
 
-package gui.tree;
+package org.wharvex.jflap.gui.tree;
 
 import javax.swing.tree.TreeModel;
 import java.util.Map;

@@ -17,7 +17,7 @@
 
 
 
-package automata.turing;
+package org.wharvex.jflap.automata.turing;
 
 import automata.State;
 import java.awt.Point;

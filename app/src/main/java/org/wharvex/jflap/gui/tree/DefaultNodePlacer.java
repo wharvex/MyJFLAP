@@ -18,7 +18,7 @@
 
 
 
-package gui.tree;
+package org.wharvex.jflap.gui.tree;
 
 import java.awt.geom.Point2D;
 import java.util.Arrays;

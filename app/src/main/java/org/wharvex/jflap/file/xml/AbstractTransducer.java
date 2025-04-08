@@ -18,7 +18,7 @@
 
 
 
-package file.xml;
+package org.wharvex.jflap.file.xml;
 
 import java.util.Iterator;
 import java.util.Map;

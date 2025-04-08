@@ -18,7 +18,7 @@
 
 
 
-package gui.lsystem;
+package org.wharvex.jflap.gui.lsystem;
 
 import java.util.EventObject;
 

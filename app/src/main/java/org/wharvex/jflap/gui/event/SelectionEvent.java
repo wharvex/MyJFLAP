@@ -18,7 +18,7 @@
 
 
 
-package gui.event;
+package org.wharvex.jflap.gui.event;
 
 import java.util.EventObject;
 

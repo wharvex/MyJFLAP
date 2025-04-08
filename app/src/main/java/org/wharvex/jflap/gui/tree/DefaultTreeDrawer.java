@@ -18,7 +18,7 @@
 
 
 
-package gui.tree;
+package org.wharvex.jflap.gui.tree;
 
 import java.awt.Graphics2D;
 import java.awt.Color;

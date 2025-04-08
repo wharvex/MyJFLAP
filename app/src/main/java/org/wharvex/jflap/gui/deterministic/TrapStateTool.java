@@ -17,7 +17,7 @@
 
 
 
-package gui.deterministic;
+package org.wharvex.jflap.gui.deterministic;
 
 import gui.editor.StateTool;
 import gui.regular.FSAToREController;

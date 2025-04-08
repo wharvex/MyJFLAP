@@ -18,7 +18,7 @@
 
 
 
-package gui.sim;
+package org.wharvex.jflap.gui.sim;
 
 import java.awt.geom.GeneralPath;
 import java.awt.Graphics2D;

@@ -17,7 +17,7 @@
 
 
 
-package gui;
+package org.wharvex.jflap.gui;
 
 import java.awt.Font;
 

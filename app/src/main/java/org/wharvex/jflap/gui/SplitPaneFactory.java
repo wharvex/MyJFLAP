@@ -18,7 +18,7 @@
 
 
 
-package gui;
+package org.wharvex.jflap.gui;
 
 import java.awt.Component;
 import java.awt.Dimension;

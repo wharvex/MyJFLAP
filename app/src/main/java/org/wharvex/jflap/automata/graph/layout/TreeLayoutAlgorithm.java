@@ -17,7 +17,7 @@
 
 
 
-package automata.graph.layout;
+package org.wharvex.jflap.automata.graph.layout;
 
 import java.util.ArrayList;
 import java.util.Collections;

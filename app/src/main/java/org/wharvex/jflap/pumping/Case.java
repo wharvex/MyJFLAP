@@ -18,7 +18,7 @@
 
 
 
-package pumping;
+package org.wharvex.jflap.pumping;
 
 /**
  * A <code>Case</code> is an object that lets the user or program

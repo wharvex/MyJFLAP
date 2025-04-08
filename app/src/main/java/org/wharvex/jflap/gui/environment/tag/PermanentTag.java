@@ -18,7 +18,7 @@
 
 
 
-package gui.environment.tag;
+package org.wharvex.jflap.gui.environment.tag;
 
 /**
  * This is a tag that should be ascribed to an object that is "permanent," that

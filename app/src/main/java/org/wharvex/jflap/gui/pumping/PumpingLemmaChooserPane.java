@@ -18,7 +18,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import gui.environment.Environment;
 import gui.environment.tag.CriticalTag;

@@ -18,7 +18,7 @@
 
 
 
-package gui.deterministic;
+package org.wharvex.jflap.gui.deterministic;
 
 import gui.editor.TransitionTool;
 import gui.viewer.AutomatonDrawer;

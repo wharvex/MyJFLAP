@@ -18,7 +18,7 @@
 
 
 
-package gui.viewer;
+package org.wharvex.jflap.gui.viewer;
 
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;

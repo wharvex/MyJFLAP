@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 /**
  * The alphabet retriever object can be used to find the alphabet for a given

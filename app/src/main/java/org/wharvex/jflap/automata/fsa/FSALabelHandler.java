@@ -18,7 +18,7 @@
 
 
 
-package automata.fsa;
+package org.wharvex.jflap.automata.fsa;
 
 import automata.Automaton;
 import automata.State;

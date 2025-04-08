@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 import java.awt.Point;
 import java.io.Serializable;

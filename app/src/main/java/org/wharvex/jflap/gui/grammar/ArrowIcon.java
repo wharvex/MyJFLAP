@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar;
+package org.wharvex.jflap.gui.grammar;
 
 import java.awt.Color;
 import java.awt.Component;

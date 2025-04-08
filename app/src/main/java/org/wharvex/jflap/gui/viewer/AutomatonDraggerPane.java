@@ -18,7 +18,7 @@
 
 
 
-package gui.viewer;
+package org.wharvex.jflap.gui.viewer;
 
 import gui.editor.ArrowNontransitionTool;
 import automata.Automaton;

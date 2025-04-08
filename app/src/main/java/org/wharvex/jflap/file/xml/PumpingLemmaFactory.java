@@ -18,7 +18,7 @@
 
 
 
-package file.xml;
+package org.wharvex.jflap.file.xml;
 
 import pumping.*;
 import pumping.reg.*;

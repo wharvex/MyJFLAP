@@ -17,7 +17,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

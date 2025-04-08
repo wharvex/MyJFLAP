@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.convert;
+package org.wharvex.jflap.gui.grammar.convert;
 
 import automata.Automaton;
 import automata.Transition;

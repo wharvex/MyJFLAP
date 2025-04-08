@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 import grammar.cfg.ContextFreeGrammar;
 

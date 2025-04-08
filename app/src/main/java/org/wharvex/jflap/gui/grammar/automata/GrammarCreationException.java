@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.automata;
+package org.wharvex.jflap.gui.grammar.automata;
 
 /**
  * The <CODE>GrammarCreationException</CODE> is thrown if there is an error in

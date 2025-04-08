@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 /**
  * The Production checker object can be used to check certain properties of

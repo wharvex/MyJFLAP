@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 /**
  * This class is an exception that is thrown in the event an incompatible <CODE>Transition</CODE>

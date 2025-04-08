@@ -18,7 +18,7 @@
 
 
 
-package pumping;
+package org.wharvex.jflap.pumping;
 
 import java.io.Serializable;
 import java.util.*;

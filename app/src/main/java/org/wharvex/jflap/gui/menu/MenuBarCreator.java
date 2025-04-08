@@ -18,7 +18,7 @@
 
 
 
-package gui.menu;
+package org.wharvex.jflap.gui.menu;
 
 
 import javax.swing.*;

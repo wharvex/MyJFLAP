@@ -17,7 +17,7 @@
 
 
 
-package automata.graph;
+package org.wharvex.jflap.automata.graph;
 
 import automata.Automaton;
 

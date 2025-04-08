@@ -18,7 +18,7 @@
 
 
 
-package automata.mealy;
+package org.wharvex.jflap.automata.mealy;
 
 import automata.NondeterminismDetector;
 import automata.Transition;

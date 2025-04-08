@@ -17,7 +17,7 @@
 
 
 
-package gui.grammar.parse;
+package org.wharvex.jflap.gui.grammar.parse;
 
 import java.awt.BorderLayout;
 import java.awt.Rectangle;

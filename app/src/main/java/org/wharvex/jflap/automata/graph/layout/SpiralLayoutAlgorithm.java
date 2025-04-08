@@ -17,7 +17,7 @@
 
 
 
-package automata.graph.layout;
+package org.wharvex.jflap.automata.graph.layout;
 
 import java.awt.Dimension;
 import java.awt.geom.Point2D;

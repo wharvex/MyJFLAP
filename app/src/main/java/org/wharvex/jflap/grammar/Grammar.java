@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 import gui.environment.EnvironmentFrame;
 

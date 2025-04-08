@@ -18,7 +18,7 @@
 
 
 
-package automata.pda;
+package org.wharvex.jflap.automata.pda;
 
 import automata.Automaton;
 import automata.Configuration;

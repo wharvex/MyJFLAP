@@ -17,7 +17,7 @@
 
 
 
-package automata.graph;
+package org.wharvex.jflap.automata.graph;
 
 import java.awt.Dimension;
 import java.util.Random;

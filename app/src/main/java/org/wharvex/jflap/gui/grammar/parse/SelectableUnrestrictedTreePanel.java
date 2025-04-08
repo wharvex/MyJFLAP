@@ -17,7 +17,7 @@
 
 
 
-package gui.grammar.parse;
+package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Production;
 import grammar.parse.ParseNode;

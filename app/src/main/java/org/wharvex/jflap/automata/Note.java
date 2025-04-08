@@ -17,7 +17,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 import gui.editor.DeleteTool;
 import gui.editor.EditCanvas;

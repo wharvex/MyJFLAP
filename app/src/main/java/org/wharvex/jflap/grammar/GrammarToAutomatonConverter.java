@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 import java.util.ArrayList;
 import java.util.HashMap;

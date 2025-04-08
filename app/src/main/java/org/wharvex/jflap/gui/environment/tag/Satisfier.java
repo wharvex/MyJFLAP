@@ -18,7 +18,7 @@
 
 
 
-package gui.environment.tag;
+package org.wharvex.jflap.gui.environment.tag;
 
 /**
  * A satisfier is a general object that takes an object and its tags, and

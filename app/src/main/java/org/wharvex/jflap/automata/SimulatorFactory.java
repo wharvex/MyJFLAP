@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 /**
  * This simulator factory returns the simulator for the type of automaton passed

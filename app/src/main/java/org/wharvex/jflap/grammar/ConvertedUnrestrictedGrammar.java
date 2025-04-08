@@ -17,7 +17,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 /**
  * Special grammar for JFLAP to recognized that Grammar is "converted grammar from Turing Mahcine"

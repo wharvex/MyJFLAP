@@ -18,7 +18,7 @@
 
 
 
-package gui.sim;
+package org.wharvex.jflap.gui.sim;
 
 import automata.Configuration;
 import automata.fsa.FSAConfiguration;

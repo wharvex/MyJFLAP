@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 /**
  * The unrestricted grammar is a grammar that can have any production added to

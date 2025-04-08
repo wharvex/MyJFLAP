@@ -18,7 +18,7 @@
 
 
 
-package grammar.lsystem;
+package org.wharvex.jflap.grammar.lsystem;
 
 import grammar.*;
 import java.io.Serializable;

@@ -18,7 +18,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import java.util.*;
 import pumping.reg.*;

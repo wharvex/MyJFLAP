@@ -18,7 +18,7 @@
 
 
 
-package automata.turing;
+package org.wharvex.jflap.automata.turing;
 
 import automata.Transition;
 import automata.State;

@@ -18,7 +18,7 @@
 
 
 
-package automata;
+package org.wharvex.jflap.automata;
 
 import gui.action.OpenAction;
 import gui.environment.EnvironmentFrame;

@@ -18,7 +18,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 /**
  * An unbound grammar has no restrictions whatsoever in the way of what

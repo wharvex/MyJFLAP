@@ -18,7 +18,7 @@
 
 
 
-package grammar.cfg;
+package org.wharvex.jflap.grammar.cfg;
 
 import grammar.*;
 

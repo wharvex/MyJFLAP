@@ -18,7 +18,7 @@
 
 
 
-package gui.environment.tag;
+package org.wharvex.jflap.gui.environment.tag;
 
 /**
  * An editor tag is a tag intended for use to tag some object that is intended

@@ -18,7 +18,7 @@
 
 
 
-package gui.environment.tag;
+package org.wharvex.jflap.gui.environment.tag;
 
 /**
  * A tag is simply an interface that can be applied to an object to indicate

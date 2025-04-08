@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.parse;
+package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.parse.LRParseTable;
 import gui.LeftTable;

@@ -18,7 +18,7 @@
 
 
 
-package grammar.reg;
+package org.wharvex.jflap.grammar.reg;
 
 import grammar.Production;
 import grammar.ProductionChecker;

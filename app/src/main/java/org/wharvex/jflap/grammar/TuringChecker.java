@@ -17,7 +17,7 @@
 
 
 
-package grammar;
+package org.wharvex.jflap.grammar;
 
 import grammar.Grammar;
 import grammar.Production;

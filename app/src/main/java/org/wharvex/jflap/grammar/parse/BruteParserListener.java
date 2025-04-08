@@ -18,7 +18,7 @@
 
 
 
-package grammar.parse;
+package org.wharvex.jflap.grammar.parse;
 
 import java.util.EventListener;
 

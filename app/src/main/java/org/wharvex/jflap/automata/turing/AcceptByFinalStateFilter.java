@@ -23,7 +23,7 @@
 
   */
 
-package automata.turing;
+package org.wharvex.jflap.automata.turing;
 
 import java.util.Arrays;
 import debug.EDebug;

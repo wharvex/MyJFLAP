@@ -18,7 +18,7 @@
 
 
 
-package gui.grammar.automata;
+package org.wharvex.jflap.gui.grammar.automata;
 
 import automata.Automaton;
 import automata.State;

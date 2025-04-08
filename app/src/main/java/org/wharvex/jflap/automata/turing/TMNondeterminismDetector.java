@@ -18,7 +18,7 @@
 
 
 
-package automata.turing;
+package org.wharvex.jflap.automata.turing;
 
 import automata.NondeterminismDetector;
 import automata.Transition;

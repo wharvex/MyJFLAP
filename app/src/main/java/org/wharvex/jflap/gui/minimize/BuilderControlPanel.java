@@ -18,7 +18,7 @@
 
 
 
-package gui.minimize;
+package org.wharvex.jflap.gui.minimize;
 
 import gui.TooltipAction;
 

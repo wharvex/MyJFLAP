@@ -17,7 +17,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import javax.swing.JPanel;
 

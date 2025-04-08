@@ -18,7 +18,7 @@
 
 
 
-package gui.transform;
+package org.wharvex.jflap.gui.transform;
 
 import java.awt.geom.Point2D;
 import java.io.Serializable;

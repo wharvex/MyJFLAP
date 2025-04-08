@@ -17,7 +17,7 @@
 
 
 
-package gui.pumping;
+package org.wharvex.jflap.gui.pumping;
 
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;

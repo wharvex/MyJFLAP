@@ -18,7 +18,7 @@
 
 
 
-package gui.environment.tag;
+package org.wharvex.jflap.gui.environment.tag;
 
 /**
  * A critical tag is used to mark a component whose "stability" requires that

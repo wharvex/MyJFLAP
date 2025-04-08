@@ -17,7 +17,7 @@
 
 
 
-package grammar.parse;
+package org.wharvex.jflap.grammar.parse;
 
 import java.util.ArrayList;
 import java.util.*;

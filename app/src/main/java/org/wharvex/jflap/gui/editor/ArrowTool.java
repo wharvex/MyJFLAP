@@ -18,7 +18,7 @@
 
 
 
-package gui.editor;
+package org.wharvex.jflap.gui.editor;
 
 import gui.environment.AutomatonEnvironment;
 import gui.environment.Environment;
