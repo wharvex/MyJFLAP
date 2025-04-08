@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,10 +15,7 @@
  */
 
 
-
-
-
-package gui.action;
+package org.wharvex.jflap.gui.action;
 
 import grammar.Grammar;
 import grammar.UnrestrictedGrammar;
@@ -32,39 +29,42 @@ import java.awt.event.ActionEvent;
 
 /**
  * This is a simple test action for grammars.
- * 
+ *
  * @author Thomas Finley
  */
 
 public class GrammarTestAction extends GrammarAction {
-	/**
-	 * Instantiates a new <CODE>GrammarOutputAction</CODE>.
-	 * 
-	 * @param environment
-	 *            the grammar environment
-	 */
-	public GrammarTestAction(GrammarEnvironment environment) {
-		super("Grammar Test", null);
-		this.environment = environment;
-		this.frame = Universe.frameForEnvironment(environment);
-	}
+  /**
+   * Instantiates a new <CODE>GrammarOutputAction</CODE>.
+   *
+   * @param environment the grammar environment
+   */
+  public GrammarTestAction(GrammarEnvironment environment) {
+    super("Grammar Test", null);
+    this.environment = environment;
+    this.frame = Universe.frameForEnvironment(environment);
+  }
 
-	/**
-	 * Performs the action.
-	 */
-	public void actionPerformed(ActionEvent e) {
-		Grammar g = environment.getGrammar(UnrestrictedGrammar.class);
-		if (g == null)
-			return;
-		ChomskyPane cp = new ChomskyPane(environment, g);
-		environment.add(cp, "Test", new CriticalTag() {
-		});
-		environment.setActive(cp);
-	}
+  /**
+   * Performs the action.
+   */
+  public void actionPerformed(ActionEvent e) {
+    Grammar g = environment.getGrammar(UnrestrictedGrammar.class);
+    if (g == null)
+      return;
+    ChomskyPane cp = new ChomskyPane(environment, g);
+    environment.add(cp, "Test", new CriticalTag() {
+    });
+    environment.setActive(cp);
+  }
 
-	/** The grammar environment. */
-	private GrammarEnvironment environment;
+  /**
+   * The grammar environment.
+   */
+  private GrammarEnvironment environment;
 
-	/** The frame for the grammar environment. */
-	private EnvironmentFrame frame;
+  /**
+   * The frame for the grammar environment.
+   */
+  private EnvironmentFrame frame;
 }

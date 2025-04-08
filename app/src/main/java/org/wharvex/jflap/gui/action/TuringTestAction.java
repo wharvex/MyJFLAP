@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,10 +15,7 @@
  */
 
 
-
-
-
-package gui.action;
+package org.wharvex.jflap.gui.action;
 
 import file.Codec;
 import file.DataException;
@@ -51,29 +48,29 @@ import automata.Automaton;
 import automata.turing.TuringMachine;
 
 /**
-* The <CODE>TestTuringAction</CODE> is an action to load a structure from a file,
-* and create a new environment with that object.
-* 
-* @author Stephen Reading
-*/
+ * The <CODE>TestTuringAction</CODE> is an action to load a structure from a file,
+ * and create a new environment with that object.
+ *
+ * @author Stephen Reading
+ */
 
 public class TuringTestAction extends TestAction {
 
 
-    /**
-     * Instantiates a new <CODE>Turing Test Action</CODE>.
-     */
-    public TuringTestAction() {
-        //super("Test Turing Machines", null);
-        super("Test Turing Machines", KeyEvent.VK_T);       
-    }
-    
-    protected void displayMultipleRunPane(Environment env){
-    		MultipleOutputSimulateAction act = new MultipleOutputSimulateAction((Automaton)myObjects.get(0),env);
-    		act.performAction(env);
-    		env.getTag(env.getActive());
-    	}
+  /**
+   * Instantiates a new <CODE>Turing Test Action</CODE>.
+   */
+  public TuringTestAction() {
+    //super("Test Turing Machines", null);
+    super("Test Turing Machines", KeyEvent.VK_T);
+  }
 
-    
+  protected void displayMultipleRunPane(Environment env) {
+    MultipleOutputSimulateAction act =
+        new MultipleOutputSimulateAction((Automaton) myObjects.get(0), env);
+    act.performAction(env);
+    env.getTag(env.getActive());
+  }
+
 
 }

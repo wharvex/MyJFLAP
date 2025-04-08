@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,9 +15,7 @@
  */
 
 
-
-
-package gui.action;
+package org.wharvex.jflap.gui.action;
 
 import gui.environment.AutomatonEnvironment;
 import gui.environment.GrammarEnvironment;
@@ -30,35 +28,38 @@ import automata.turing.TuringMachine;
 
 /**
  * Class for converting Turing Machine to Unrestricted Grammar
- * @author Kyung Min (Jason) Lee
  *
+ * @author Kyung Min (Jason) Lee
  */
-public class TuringToUnrestrictGrammarAction extends ConvertAutomatonToGrammarAction{
+public class TuringToUnrestrictGrammarAction
+    extends ConvertAutomatonToGrammarAction {
 
-	public TuringToUnrestrictGrammarAction(AutomatonEnvironment automatonEnvironment) {
-		super("Convert to Unrestricted Grammar", automatonEnvironment);
-		// TODO Auto-generated constructor stub
-	}
+  public TuringToUnrestrictGrammarAction(
+      AutomatonEnvironment automatonEnvironment) {
+    super("Convert to Unrestricted Grammar", automatonEnvironment);
+    // TODO Auto-generated constructor stub
+  }
 
-	@Override
-	//TODO: Need to put error check, make sure there is only one letter popping and placing
-	// More error check?
-	protected boolean checkAutomaton() {
-		// TODO Auto-generated method stub
-		//return true for now
-		return true;
-	}
+  @Override
+  //TODO: Need to put error check, make sure there is only one letter popping and placing
+  // More error check?
+  protected boolean checkAutomaton() {
+    // TODO Auto-generated method stub
+    //return true for now
+    return true;
+  }
 
-	@Override
-	protected ConvertController initializeController(ConvertPane pane,
-			SelectionDrawer drawer, Automaton automaton) {
-		// TODO Auto-generated method stub
-		return new TuringConvertController(pane, drawer,
-				(TuringMachine) automaton);
-	}
+  @Override
+  protected ConvertController initializeController(ConvertPane pane,
+                                                   SelectionDrawer drawer,
+                                                   Automaton automaton) {
+    // TODO Auto-generated method stub
+    return new TuringConvertController(pane, drawer,
+        (TuringMachine) automaton);
+  }
 
-	public static boolean isApplicable(Object object) {
-		return object instanceof TuringMachine;
-	}
+  public static boolean isApplicable(Object object) {
+    return object instanceof TuringMachine;
+  }
 
 }
