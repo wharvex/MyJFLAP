@@ -25,7 +25,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import pumping.PumpingLemma;
+import org.wharvex.jflap.pumping.PumpingLemma;
 
 /**
  * This class represents the implementation of <code>PumpingLemmaInputPane</code> wherein 

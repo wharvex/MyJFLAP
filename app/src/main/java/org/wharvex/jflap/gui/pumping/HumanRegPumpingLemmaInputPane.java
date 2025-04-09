@@ -24,7 +24,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 /**
  * This is a subclass of a <code>HumanFirstPane</code> that deals with

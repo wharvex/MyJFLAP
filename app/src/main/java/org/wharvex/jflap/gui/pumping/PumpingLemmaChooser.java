@@ -23,7 +23,7 @@ package org.wharvex.jflap.gui.pumping;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-import pumping.PumpingLemma;
+import org.wharvex.jflap.pumping.PumpingLemma;
 
 /**
  * A <code>PumpingLemmaChooser</code> holds a list of 

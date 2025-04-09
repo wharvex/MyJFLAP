@@ -22,7 +22,7 @@ package org.wharvex.jflap.gui.pumping;
 
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.tag.CriticalTag;
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 import java.awt.*;
 import java.awt.event.*;

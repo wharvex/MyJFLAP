@@ -19,8 +19,8 @@
 
 package org.wharvex.jflap.pumping.reg;
 
-import pumping.LemmaMath;
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.LemmaMath;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 /**
  * The regular pumping lemma for <i>L</i> = {<i>b<sup>5</sup>w</i> : <i>w</i> &#8712; 

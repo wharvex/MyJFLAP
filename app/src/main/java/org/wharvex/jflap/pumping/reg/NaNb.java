@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.pumping.reg;
 
-import pumping.LemmaMath;
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.LemmaMath;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 /**
  * The regular pumping lemma for <i>L</i> =

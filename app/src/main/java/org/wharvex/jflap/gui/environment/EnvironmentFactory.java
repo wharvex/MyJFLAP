@@ -35,9 +35,9 @@ import java.io.Serializable;
 
 import javax.swing.JOptionPane;
 
-import pumping.ContextFreePumpingLemma;
-import pumping.PumpingLemma;
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
+import org.wharvex.jflap.pumping.PumpingLemma;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 import regular.RegularExpression;
 import org.wharvex.jflap.automata.Automaton;

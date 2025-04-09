@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.pumping;
 
 import java.util.*;
-import pumping.reg.*;
+import org.wharvex.jflap.pumping.reg.*;
 
 /**
  * A <code>RegPumpingLemmaChooser</code> is a <code>PumpingLemmaChooser</code> 

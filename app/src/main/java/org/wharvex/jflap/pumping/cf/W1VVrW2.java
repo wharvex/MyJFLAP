@@ -19,8 +19,8 @@
 
 package org.wharvex.jflap.pumping.cf;
 
-import pumping.ContextFreePumpingLemma;
-import pumping.LemmaMath;
+import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
+import org.wharvex.jflap.pumping.LemmaMath;
 
 /**
  * The context-free pumping lemma for <i>L</i> =

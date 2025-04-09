@@ -21,7 +21,7 @@ package org.wharvex.jflap.gui.pumping;
 
 import javax.swing.JPanel;
 
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 /**
  * This is a subclass of <code>ComputerFirstPane</code> that deals with

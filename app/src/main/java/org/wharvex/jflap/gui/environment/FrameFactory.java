@@ -23,8 +23,8 @@ import org.wharvex.jflap.gui.pumping.RegPumpingLemmaChooser;
 import java.io.Serializable;
 import java.awt.Dimension;
 
-import pumping.ContextFreePumpingLemma;
-import pumping.RegularPumpingLemma;
+import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
+import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
 import org.wharvex.jflap.automata.Automaton;
 

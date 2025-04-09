@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 import org.w3c.dom.*;
 
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 /**
  * This is the transducer for encoding and decoding 

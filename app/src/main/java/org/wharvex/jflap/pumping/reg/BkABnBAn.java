@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.pumping.reg;
 
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 /**
  * The regular pumping lemma for <i>L</i> = 

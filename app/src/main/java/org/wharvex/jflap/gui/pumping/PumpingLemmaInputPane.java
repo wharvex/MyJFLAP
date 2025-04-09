@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
 
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 /**
  * A <code>PumpingLemmaInputPane</code> is a <code>JPanel</code> that 

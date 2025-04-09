@@ -26,7 +26,7 @@ import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 /**
  * A <code>CasePanel</code> manages the graphical representation of

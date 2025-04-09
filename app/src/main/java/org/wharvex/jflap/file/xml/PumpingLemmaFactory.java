@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.file.xml;
 
-import pumping.*;
-import pumping.reg.*;
-import pumping.cf.*;
+import org.wharvex.jflap.pumping.*;
+import org.wharvex.jflap.pumping.reg.*;
+import org.wharvex.jflap.pumping.cf.*;
 
 /**
  * 

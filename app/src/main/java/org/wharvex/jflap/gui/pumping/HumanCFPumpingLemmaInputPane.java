@@ -24,7 +24,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import pumping.ContextFreePumpingLemma;
+import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
 
 /**
  * This is a subclass of <code>HumanFirstPane</code> that deals with

@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.pumping.cf;
 
-import pumping.*;
+import org.wharvex.jflap.pumping.*;
 
 /**
  * The context-free pumping lemma for <i>L</i> =

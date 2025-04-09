@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.pumping;
 
-import pumping.cf.*;
+import org.wharvex.jflap.pumping.cf.*;
 import java.util.ArrayList;
 
 /**

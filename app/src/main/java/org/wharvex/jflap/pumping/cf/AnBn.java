@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.pumping.cf;
 
-import pumping.Case;
-import pumping.ContextFreePumpingLemma;
-import pumping.LemmaMath;
+import org.wharvex.jflap.pumping.Case;
+import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
+import org.wharvex.jflap.pumping.LemmaMath;
 
 /**
  * The context-free pumping lemam for <i>L</i> = 
