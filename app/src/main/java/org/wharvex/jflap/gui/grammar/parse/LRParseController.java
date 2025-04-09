@@ -25,8 +25,8 @@ import grammar.parse.*;
 import grammar.*;
 import java.util.*;
 
-import gui.environment.Universe;
-import gui.tree.Trees;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.tree.Trees;
 import javax.swing.JOptionPane;
 
 /**

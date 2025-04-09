@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.BorderLayout;
 import java.awt.Graphics;

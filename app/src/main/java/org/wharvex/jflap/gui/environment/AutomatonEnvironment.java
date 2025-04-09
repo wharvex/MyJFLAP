@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import gui.editor.UndoKeeper;
+import org.wharvex.jflap.gui.editor.UndoKeeper;
 import automata.Automaton;
 import automata.event.AutomataStateEvent;
 import automata.event.AutomataStateListener;

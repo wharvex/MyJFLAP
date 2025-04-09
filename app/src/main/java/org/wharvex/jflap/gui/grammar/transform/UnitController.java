@@ -23,7 +23,7 @@ package org.wharvex.jflap.gui.grammar.transform;
 import automata.*;
 import automata.vdg.*;
 import grammar.*;
-import gui.grammar.GrammarTableModel;
+import org.wharvex.jflap.gui.grammar.GrammarTableModel;
 import java.awt.event.MouseEvent;
 import java.util.*;
 import javax.swing.*;

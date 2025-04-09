@@ -34,7 +34,7 @@ import automata.AutomatonSimulator;
 import automata.Configuration;
 import automata.State;
 import automata.Transition;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import debug.EDebug;
 

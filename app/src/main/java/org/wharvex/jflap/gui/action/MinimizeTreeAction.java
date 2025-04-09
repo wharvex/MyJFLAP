@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.Environment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.minimize.MinimizePane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.minimize.MinimizePane;
 
 import java.awt.event.ActionEvent;
 

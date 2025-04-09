@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.fsa;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.util.ArrayList;
 

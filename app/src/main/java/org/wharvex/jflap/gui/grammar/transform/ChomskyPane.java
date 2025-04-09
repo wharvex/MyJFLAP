@@ -21,9 +21,9 @@
 package org.wharvex.jflap.gui.grammar.transform;
 
 import grammar.*;
-import gui.*;
-import gui.environment.*;
-import gui.grammar.*;
+import org.wharvex.jflap.gui.*;
+import org.wharvex.jflap.gui.environment.*;
+import org.wharvex.jflap.gui.grammar.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;

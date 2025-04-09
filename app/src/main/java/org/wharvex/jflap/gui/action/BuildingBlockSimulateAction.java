@@ -25,9 +25,9 @@
  */
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.Environment;
-import gui.environment.tag.CriticalTag;
-import gui.sim.SimulatorPane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.sim.SimulatorPane;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;

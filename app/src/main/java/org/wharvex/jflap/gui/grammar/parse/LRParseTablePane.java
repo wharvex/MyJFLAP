@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.parse.LRParseTable;
-import gui.LeftTable;
+import org.wharvex.jflap.gui.LeftTable;
 import java.awt.Color;
 import javax.swing.*;
 import javax.swing.table.*;

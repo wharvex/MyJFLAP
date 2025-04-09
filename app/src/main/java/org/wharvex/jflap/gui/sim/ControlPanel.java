@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import gui.TooltipAction;
+import org.wharvex.jflap.gui.TooltipAction;
 
 import java.awt.event.ActionEvent;
 

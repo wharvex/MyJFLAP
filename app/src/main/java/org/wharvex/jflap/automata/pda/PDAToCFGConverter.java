@@ -22,7 +22,7 @@ package org.wharvex.jflap.automata.pda;
 
 import grammar.Production;
 import grammar.cfg.ContextFreeGrammar;
-import gui.grammar.GrammarTableModel;
+import org.wharvex.jflap.gui.grammar.GrammarTableModel;
 
 import java.util.ArrayList;
 import java.util.HashMap;

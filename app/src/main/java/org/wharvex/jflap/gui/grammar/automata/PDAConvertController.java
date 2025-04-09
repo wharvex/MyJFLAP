@@ -27,7 +27,7 @@ import automata.pda.PushdownAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.cfg.ContextFreeGrammar;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.util.*;
 
 /**

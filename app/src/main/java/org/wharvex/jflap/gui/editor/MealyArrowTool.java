@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.viewer.*;
+import org.wharvex.jflap.gui.viewer.*;
 
 /**
  * This is a subclass of an <code>ArrowTool</code> for Mealy 

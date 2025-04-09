@@ -21,10 +21,10 @@
 package org.wharvex.jflap.gui.grammar.transform;
 
 import grammar.*;
-import gui.*;
-import gui.environment.FrameFactory;
-import gui.environment.GrammarEnvironment;
-import gui.grammar.*;
+import org.wharvex.jflap.gui.*;
+import org.wharvex.jflap.gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.grammar.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

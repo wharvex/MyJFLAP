@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.gui;
 
-import gui.action.SimulateAction;
+import org.wharvex.jflap.gui.action.SimulateAction;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

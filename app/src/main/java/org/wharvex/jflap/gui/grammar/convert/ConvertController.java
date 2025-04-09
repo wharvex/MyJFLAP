@@ -24,8 +24,8 @@ import automata.Automaton;
 import automata.Transition;
 import automata.event.*;
 import grammar.*;
-import gui.event.*;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.event.*;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.awt.Component;
 import java.util.*;
 

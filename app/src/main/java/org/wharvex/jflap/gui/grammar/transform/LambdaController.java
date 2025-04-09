@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.grammar.transform;
 
 import grammar.*;
-import gui.grammar.GrammarTableModel;
+import org.wharvex.jflap.gui.grammar.GrammarTableModel;
 import java.awt.event.MouseEvent;
 import java.util.*;
 import javax.swing.*;

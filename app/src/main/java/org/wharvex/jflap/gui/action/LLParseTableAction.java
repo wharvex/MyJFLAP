@@ -19,11 +19,11 @@ package org.wharvex.jflap.gui.action;
 
 import grammar.Grammar;
 import grammar.parse.Operations;
-import gui.environment.EnvironmentFrame;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.grammar.parse.LLParseTableDerivationPane;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.grammar.parse.LLParseTableDerivationPane;
 
 import java.awt.event.ActionEvent;
 

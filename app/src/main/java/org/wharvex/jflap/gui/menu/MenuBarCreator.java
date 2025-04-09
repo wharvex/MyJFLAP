@@ -32,11 +32,11 @@ import java.util.jar.*;
 
 import grammar.Grammar;
 import grammar.TuringChecker;
-import gui.environment.Environment;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.Universe;
-import gui.action.*;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.action.*;
 import automata.Automaton;
 import automata.graph.LayoutAlgorithmFactory;
 import automata.graph.layout.VertexMover;

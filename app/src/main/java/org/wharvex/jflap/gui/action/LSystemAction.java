@@ -18,7 +18,7 @@
 package org.wharvex.jflap.gui.action;
 
 import grammar.lsystem.LSystem;
-import gui.environment.LSystemEnvironment;
+import org.wharvex.jflap.gui.environment.LSystemEnvironment;
 
 import javax.swing.Icon;
 

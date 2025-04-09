@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.SuperMouseAdapter;
+import org.wharvex.jflap.gui.SuperMouseAdapter;
 import java.awt.event.*;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 /**
  * This is a simple mouse adapter that simply forwards all mouse actions along

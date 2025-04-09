@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import gui.pumping.PumpingLemmaChooser;
+import org.wharvex.jflap.gui.pumping.PumpingLemmaChooser;
 
 /**
  * An environment for {@link pumping.PumpingLemma}s.

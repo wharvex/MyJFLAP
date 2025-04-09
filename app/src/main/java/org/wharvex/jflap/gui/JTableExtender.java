@@ -19,9 +19,9 @@
 
 package org.wharvex.jflap.gui;
 
-import gui.action.BatchMultipleSimulateAction;
-import gui.action.MultipleSimulateAction;
-import gui.sim.multiple.InputTableModel;
+import org.wharvex.jflap.gui.action.BatchMultipleSimulateAction;
+import org.wharvex.jflap.gui.action.MultipleSimulateAction;
+import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
 
 import javax.swing.JTable;
 import javax.swing.table.TableModel;

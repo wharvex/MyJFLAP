@@ -22,16 +22,16 @@ package org.wharvex.jflap.gui.deterministic;
 import java.awt.Point;
 import java.util.*;
 
-import gui.editor.FSATransitionCreator;
-import gui.editor.TransitionCreator;
-import gui.environment.Environment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.FrameFactory;
-import gui.environment.Universe;
-import gui.regular.FSAToREController;
-import gui.regular.TransitionWindow;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.editor.FSATransitionCreator;
+import org.wharvex.jflap.gui.editor.TransitionCreator;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.regular.FSAToREController;
+import org.wharvex.jflap.gui.regular.TransitionWindow;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;

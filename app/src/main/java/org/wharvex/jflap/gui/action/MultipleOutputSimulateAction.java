@@ -18,8 +18,8 @@
 package org.wharvex.jflap.gui.action;
 
 import automata.Automaton;
-import gui.JTableExtender;
-import gui.environment.Environment;
+import org.wharvex.jflap.gui.JTableExtender;
+import org.wharvex.jflap.gui.environment.Environment;
 
 import javax.swing.*;
 import javax.swing.table.*;
@@ -27,7 +27,7 @@ import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
-import gui.sim.multiple.InputTableModel;
+import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
 import automata.turing.TuringMachine;
 
 /**

@@ -17,13 +17,13 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.TooltipAction;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.tag.CriticalTag;
-import gui.grammar.automata.ConvertController;
-import gui.grammar.automata.ConvertPane;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.TooltipAction;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.grammar.automata.ConvertController;
+import org.wharvex.jflap.gui.grammar.automata.ConvertPane;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;

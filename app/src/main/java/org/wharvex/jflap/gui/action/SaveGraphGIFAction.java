@@ -17,12 +17,12 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.editor.EditorPane;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Environment;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Component;
 import java.awt.Graphics;

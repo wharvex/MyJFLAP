@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.viewer;
 
-import gui.editor.ArrowNontransitionTool;
+import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
 import automata.Automaton;
 
 /**

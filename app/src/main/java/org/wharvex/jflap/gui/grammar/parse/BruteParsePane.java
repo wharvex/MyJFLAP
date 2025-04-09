@@ -22,9 +22,9 @@ package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Grammar;
 import grammar.parse.*;
-import gui.environment.GrammarEnvironment;
-import gui.sim.multiple.InputTableModel;
-import gui.tree.*;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
+import org.wharvex.jflap.gui.tree.*;
 import java.awt.*;
 import java.awt.event.*;
 

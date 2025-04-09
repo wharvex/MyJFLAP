@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.sim.multiple;
 
 import grammar.Grammar;
-import gui.GrowableTableModel;
+import org.wharvex.jflap.gui.GrowableTableModel;
 import automata.Automaton;
 import automata.Configuration;
 import automata.turing.Tape;

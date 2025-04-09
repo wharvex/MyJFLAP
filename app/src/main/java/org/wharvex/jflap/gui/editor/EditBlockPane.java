@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import automata.Automaton;
 import automata.State;
 

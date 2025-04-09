@@ -20,16 +20,16 @@
 
 package org.wharvex.jflap.gui.deterministic;
 
-import gui.SplitPaneFactory;
-import gui.TooltipAction;
-import gui.editor.ArrowNontransitionTool;
-import gui.editor.EditorPane;
-import gui.editor.ToolBox;
-import gui.environment.Environment;
-import gui.viewer.AutomatonDraggerPane;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.TooltipAction;
+import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.editor.ToolBox;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.viewer.AutomatonDraggerPane;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

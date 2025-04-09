@@ -17,11 +17,11 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.editor.EditBlockPane;
-import gui.editor.EditorPane;
-import gui.environment.Environment;
-import gui.environment.tag.PermanentTag;
-import gui.environment.tag.Tag;
+import org.wharvex.jflap.gui.editor.EditBlockPane;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.tag.PermanentTag;
+import org.wharvex.jflap.gui.environment.tag.Tag;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;

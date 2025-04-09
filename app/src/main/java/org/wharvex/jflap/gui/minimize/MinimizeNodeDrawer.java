@@ -22,7 +22,7 @@ package org.wharvex.jflap.gui.minimize;
 
 import automata.fsa.MinimizeTreeNode;
 import javax.swing.tree.TreeNode;
-import gui.tree.*;
+import org.wharvex.jflap.gui.tree.*;
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;

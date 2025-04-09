@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar;
 
-import gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 
 import java.io.Serializable;
 import java.util.*;

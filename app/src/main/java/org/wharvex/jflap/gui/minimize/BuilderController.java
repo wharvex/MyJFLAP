@@ -28,8 +28,8 @@ import java.awt.Component;
 import java.util.*;
 import automata.event.AutomataTransitionListener;
 import automata.event.AutomataTransitionEvent;
-import gui.viewer.SelectionDrawer;
-import gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.environment.FrameFactory;
 
 /**
  * This is the class for controlling the building of the minimized automaton,

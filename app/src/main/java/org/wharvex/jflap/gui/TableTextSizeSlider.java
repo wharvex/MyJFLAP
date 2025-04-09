@@ -21,8 +21,8 @@ package org.wharvex.jflap.gui;
 
 import java.awt.Font;
 
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import javax.swing.BorderFactory;
 import javax.swing.JSlider;

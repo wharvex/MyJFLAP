@@ -17,8 +17,8 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import gui.pumping.CFPumpingLemmaChooser;
-import gui.pumping.RegPumpingLemmaChooser;
+import org.wharvex.jflap.gui.pumping.CFPumpingLemmaChooser;
+import org.wharvex.jflap.gui.pumping.RegPumpingLemmaChooser;
 
 import java.io.Serializable;
 import java.awt.Dimension;

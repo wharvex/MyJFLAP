@@ -18,11 +18,11 @@
 package org.wharvex.jflap.gui.action;
 
 import grammar.Grammar;
-import gui.environment.EnvironmentFrame;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
-import gui.environment.tag.*;
-import gui.grammar.parse.*;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.*;
+import org.wharvex.jflap.gui.grammar.parse.*;
 
 import java.awt.event.ActionEvent;
 

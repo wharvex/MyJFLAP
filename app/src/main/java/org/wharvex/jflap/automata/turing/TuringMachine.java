@@ -33,8 +33,8 @@ import java.util.Collection;
 import java.io.Serializable;
 import java.io.File;
 
-import gui.action.OpenAction;
-import gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.action.OpenAction;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 
 import javax.swing.JButton;
 

@@ -22,8 +22,8 @@ package org.wharvex.jflap.gui.grammar.convert;
 
 import grammar.Grammar;
 import grammar.Production;
-import gui.event.SelectionEvent;
-import gui.event.SelectionListener;
+import org.wharvex.jflap.gui.event.SelectionEvent;
+import org.wharvex.jflap.gui.event.SelectionListener;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;

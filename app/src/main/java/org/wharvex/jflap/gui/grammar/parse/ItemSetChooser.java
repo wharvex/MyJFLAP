@@ -22,10 +22,10 @@ package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.*;
 import grammar.parse.*;
-import gui.SuperMouseAdapter;
-import gui.grammar.GrammarTable;
-import gui.grammar.GrammarTableModel;
-import gui.grammar.ImmutableGrammarTableModel;
+import org.wharvex.jflap.gui.SuperMouseAdapter;
+import org.wharvex.jflap.gui.grammar.GrammarTable;
+import org.wharvex.jflap.gui.grammar.GrammarTableModel;
+import org.wharvex.jflap.gui.grammar.ImmutableGrammarTableModel;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;

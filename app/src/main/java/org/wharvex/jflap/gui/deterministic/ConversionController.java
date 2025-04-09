@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.deterministic;
 
-import gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.environment.FrameFactory;
 
 import java.awt.Point;
 import java.awt.Rectangle;

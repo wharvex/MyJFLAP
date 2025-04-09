@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.AboutBox;
+import org.wharvex.jflap.gui.AboutBox;
 
 import java.awt.event.ActionEvent;
 

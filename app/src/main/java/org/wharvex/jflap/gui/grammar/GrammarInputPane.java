@@ -24,7 +24,7 @@ import grammar.Grammar;
 import grammar.TuringChecker;
 import grammar.cfg.ContextFreeGrammar;
 import grammar.reg.RegularGrammar;
-import gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
 
 import javax.swing.table.*;
 import javax.swing.*;

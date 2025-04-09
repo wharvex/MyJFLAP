@@ -20,11 +20,11 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import gui.SplitPaneFactory;
-import gui.editor.ArrowDisplayOnlyTool;
-import gui.environment.Environment;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.editor.ArrowDisplayOnlyTool;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;

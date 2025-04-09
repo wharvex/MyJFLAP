@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.tree;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Color;
 import java.awt.Graphics2D;

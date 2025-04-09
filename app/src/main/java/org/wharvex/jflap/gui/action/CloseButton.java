@@ -29,11 +29,11 @@ import automata.Automaton;
 import automata.State;
 import automata.turing.TuringMachine;
 
-import gui.editor.EditBlockPane;
-import gui.editor.EditorPane;
-import gui.environment.Environment;
-import gui.environment.tag.PermanentTag;
-import gui.environment.tag.Tag;
+import org.wharvex.jflap.gui.editor.EditBlockPane;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.tag.PermanentTag;
+import org.wharvex.jflap.gui.environment.tag.Tag;
 
 /**
  * The <code>CloseButton</code> is a button for removing tabs in

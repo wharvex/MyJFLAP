@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.Component;
 import java.util.ArrayList;

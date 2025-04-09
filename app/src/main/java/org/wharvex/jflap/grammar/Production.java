@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.io.Serializable;
 import java.util.ArrayList;

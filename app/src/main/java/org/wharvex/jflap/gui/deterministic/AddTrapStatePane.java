@@ -32,19 +32,19 @@ import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
 import automata.fsa.FiniteStateAutomaton;
-import gui.editor.ArrowNontransitionTool;
-import gui.editor.ToolBox;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Universe;
-import gui.regular.CollapseTool;
-import gui.regular.ConvertPane;
-import gui.regular.FSAToREController;
-import gui.regular.RegularStateTool;
-import gui.regular.RegularTransitionTool;
-import gui.regular.StateCollapseTool;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
+import org.wharvex.jflap.gui.editor.ToolBox;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.regular.CollapseTool;
+import org.wharvex.jflap.gui.regular.ConvertPane;
+import org.wharvex.jflap.gui.regular.FSAToREController;
+import org.wharvex.jflap.gui.regular.RegularStateTool;
+import org.wharvex.jflap.gui.regular.RegularTransitionTool;
+import org.wharvex.jflap.gui.regular.StateCollapseTool;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 /**
  * Pane used for adding trap state

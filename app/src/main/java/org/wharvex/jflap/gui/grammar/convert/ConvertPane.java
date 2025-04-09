@@ -22,11 +22,11 @@ package org.wharvex.jflap.gui.grammar.convert;
 
 import automata.Automaton;
 import grammar.*;
-import gui.SplitPaneFactory;
-import gui.TableTextSizeSlider;
-import gui.editor.*;
-import gui.environment.Environment;
-import gui.viewer.*;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.editor.*;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.viewer.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;

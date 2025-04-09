@@ -19,12 +19,12 @@
 
 package org.wharvex.jflap.automata;
 
-import gui.editor.DeleteTool;
-import gui.editor.EditCanvas;
-import gui.editor.EditorPane;
-import gui.editor.Tool;
-import gui.viewer.AutomatonPane;
-import gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.editor.DeleteTool;
+import org.wharvex.jflap.gui.editor.EditCanvas;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.editor.Tool;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
 
 import java.awt.Color;
 import java.awt.Point;

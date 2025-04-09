@@ -20,10 +20,10 @@ package org.wharvex.jflap.gui.action;
 import file.Codec;
 import file.DataException;
 import file.ParseException;
-import gui.environment.Environment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.FrameFactory;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.AWTException;
 import java.awt.Component;

@@ -38,12 +38,12 @@ import grammar.parse.BruteParserListener;
 import grammar.parse.ParseNode;
 import grammar.parse.Unrestricted;
 import grammar.parse.UserParser;
-import gui.SplitPaneFactory;
-import gui.TableTextSizeSlider;
-import gui.environment.GrammarEnvironment;
-import gui.grammar.GrammarTable;
-import gui.grammar.GrammarTableModel;
-import gui.sim.multiple.InputTableModel;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.grammar.GrammarTable;
+import org.wharvex.jflap.gui.grammar.GrammarTableModel;
+import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

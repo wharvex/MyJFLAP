@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.*;
-import gui.menu.MenuBarCreator;
-import gui.pumping.CFPumpingLemmaChooser;
-import gui.pumping.RegPumpingLemmaChooser;
+import org.wharvex.jflap.gui.environment.*;
+import org.wharvex.jflap.gui.menu.MenuBarCreator;
+import org.wharvex.jflap.gui.pumping.CFPumpingLemmaChooser;
+import org.wharvex.jflap.gui.pumping.RegPumpingLemmaChooser;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

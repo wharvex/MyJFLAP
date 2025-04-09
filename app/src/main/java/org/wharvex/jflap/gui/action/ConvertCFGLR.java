@@ -23,10 +23,10 @@ import automata.pda.PushdownAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.cfg.CFGToPDALRConverter;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.grammar.convert.ConvertPane;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.grammar.convert.ConvertPane;
 
 import java.awt.event.ActionEvent;
 import java.util.*;

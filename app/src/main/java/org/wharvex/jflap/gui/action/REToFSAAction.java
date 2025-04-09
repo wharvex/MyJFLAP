@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.RegularEnvironment;
-import gui.environment.tag.CriticalTag;
-import gui.regular.ConvertToAutomatonPane;
+import org.wharvex.jflap.gui.environment.RegularEnvironment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.regular.ConvertToAutomatonPane;
 
 import java.awt.event.*;
 import javax.swing.JOptionPane;

@@ -20,16 +20,16 @@ package org.wharvex.jflap.gui.environment;
 import grammar.ConvertedUnrestrictedGrammar;
 import grammar.Grammar;
 import grammar.lsystem.LSystem;
-import gui.editor.EditorPane;
-import gui.editor.MealyToolBox;
-import gui.editor.MooreToolBox;
-import gui.environment.tag.CriticalTag;
-import gui.environment.tag.EditorTag;
-import gui.environment.tag.PermanentTag;
-import gui.environment.tag.Tag;
-import gui.grammar.GrammarInputPane;
-import gui.lsystem.LSystemInputPane;
-import gui.pumping.*;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.editor.MealyToolBox;
+import org.wharvex.jflap.gui.editor.MooreToolBox;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.environment.tag.EditorTag;
+import org.wharvex.jflap.gui.environment.tag.PermanentTag;
+import org.wharvex.jflap.gui.environment.tag.Tag;
+import org.wharvex.jflap.gui.grammar.GrammarInputPane;
+import org.wharvex.jflap.gui.lsystem.LSystemInputPane;
+import org.wharvex.jflap.gui.pumping.*;
 
 import java.io.Serializable;
 

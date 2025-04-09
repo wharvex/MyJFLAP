@@ -17,12 +17,12 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.AutomatonEnvironment;
-import gui.environment.GrammarEnvironment;
-import gui.grammar.automata.ConvertController;
-import gui.grammar.automata.ConvertPane;
-import gui.grammar.automata.TuringConvertController;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.grammar.automata.ConvertController;
+import org.wharvex.jflap.gui.grammar.automata.ConvertPane;
+import org.wharvex.jflap.gui.grammar.automata.TuringConvertController;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import automata.Automaton;
 import automata.turing.TuringMachine;
 

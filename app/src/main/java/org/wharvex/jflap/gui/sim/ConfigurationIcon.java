@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import gui.viewer.StateDrawer;
+import org.wharvex.jflap.gui.viewer.StateDrawer;
 
 import java.awt.Component;
 import java.awt.Graphics;

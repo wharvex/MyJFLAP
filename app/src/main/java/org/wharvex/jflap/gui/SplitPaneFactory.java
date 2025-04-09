@@ -23,7 +23,7 @@ package org.wharvex.jflap.gui;
 import java.awt.Component;
 import java.awt.Dimension;
 import javax.swing.JSplitPane;
-import gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Environment;
 
 /**
  * This is a convinience factory class for doing the annoying repetitive task of

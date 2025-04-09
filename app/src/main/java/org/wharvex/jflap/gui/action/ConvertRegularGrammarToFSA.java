@@ -24,10 +24,10 @@ import automata.graph.layout.GEMLayoutAlgorithm;
 import grammar.Production;
 import grammar.reg.RightLinearGrammar;
 import grammar.reg.RightLinearGrammarToFSAConverter;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.grammar.convert.ConvertPane;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.grammar.convert.ConvertPane;
 
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;

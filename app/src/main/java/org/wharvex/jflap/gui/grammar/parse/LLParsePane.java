@@ -20,11 +20,11 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import grammar.Grammar;
 import grammar.parse.*;
 import javax.swing.*;
-import gui.tree.*;
+import org.wharvex.jflap.gui.tree.*;
 
 /**
  * This is a parse pane for LL grammars.

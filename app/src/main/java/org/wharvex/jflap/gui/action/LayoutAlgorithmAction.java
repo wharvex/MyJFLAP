@@ -25,7 +25,7 @@ import automata.pda.PushdownAutomaton;
 import automata.mealy.MealyMachine;
 import automata.Automaton;
 import automata.graph.*;
-import gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Environment;
 
 /**
  * This action allows for a layout algorithm to be applied to an automaton.

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 import automata.Transition;
 import automata.State;
 

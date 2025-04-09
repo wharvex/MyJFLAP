@@ -22,7 +22,7 @@ package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.*;
 import grammar.parse.*;
-import gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import java.awt.event.ActionEvent;
 import java.util.*;
 import javax.swing.AbstractAction;

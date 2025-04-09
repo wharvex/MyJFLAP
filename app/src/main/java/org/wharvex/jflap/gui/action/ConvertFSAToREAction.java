@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.regular.ConvertPane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.regular.ConvertPane;
 
 import java.awt.event.ActionEvent;
 

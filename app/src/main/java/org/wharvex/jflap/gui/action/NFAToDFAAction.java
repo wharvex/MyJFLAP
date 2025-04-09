@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.deterministic.ConversionPane;
-import gui.environment.Environment;
-import gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.deterministic.ConversionPane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 
 import java.awt.event.ActionEvent;
 

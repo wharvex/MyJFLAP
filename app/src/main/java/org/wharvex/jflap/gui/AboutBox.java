@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui;
 
-import gui.ImageDisplayComponent;
+import org.wharvex.jflap.gui.ImageDisplayComponent;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;

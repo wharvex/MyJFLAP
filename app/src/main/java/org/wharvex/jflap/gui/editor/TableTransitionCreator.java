@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.LambdaCellRenderer;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.LambdaCellRenderer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import java.awt.Color;
 import java.awt.Dimension;

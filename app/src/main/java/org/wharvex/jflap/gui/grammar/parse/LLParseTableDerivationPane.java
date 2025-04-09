@@ -22,9 +22,9 @@ package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Grammar;
 import grammar.parse.*;
-import gui.SplitPaneFactory;
-import gui.environment.GrammarEnvironment;
-import gui.grammar.GrammarTable;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.grammar.GrammarTable;
 import java.awt.BorderLayout;
 import javax.swing.*;
 

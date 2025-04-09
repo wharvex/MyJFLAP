@@ -32,7 +32,7 @@ import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
 
 import java.net.URL;
 import java.util.*;

@@ -19,10 +19,10 @@
 
 package org.wharvex.jflap.gui.deterministic;
 
-import gui.editor.TransitionTool;
-import gui.regular.FSAToREController;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.editor.TransitionTool;
+import org.wharvex.jflap.gui.regular.FSAToREController;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import java.awt.event.MouseEvent;
 

@@ -24,7 +24,7 @@ import automata.event.AutomataStateEvent;
 import automata.Automaton;
 import automata.State;
 import automata.Transition;
-import gui.viewer.StateDrawer;
+import org.wharvex.jflap.gui.viewer.StateDrawer;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Iterator;

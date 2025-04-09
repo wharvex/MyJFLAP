@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.minimize;
 
-import gui.tree.SelectTreeDrawer;
-import gui.tree.Trees;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.tree.SelectTreeDrawer;
+import org.wharvex.jflap.gui.tree.Trees;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;

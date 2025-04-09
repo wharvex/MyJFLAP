@@ -21,13 +21,13 @@
 package org.wharvex.jflap.gui.grammar.automata;
 
 import automata.Automaton;
-import gui.SplitPaneFactory;
-import gui.TableTextSizeSlider;
-import gui.editor.ArrowDisplayOnlyTool;
-import gui.environment.AutomatonEnvironment;
-import gui.grammar.GrammarTable;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.editor.ArrowDisplayOnlyTool;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.grammar.GrammarTable;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.awt.BorderLayout;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;

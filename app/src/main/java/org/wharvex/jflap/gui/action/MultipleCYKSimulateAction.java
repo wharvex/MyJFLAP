@@ -45,17 +45,17 @@ import javax.swing.JTable;
 import javax.swing.JToolBar;
 
 import grammar.Grammar;
-import gui.JTableExtender;
-import gui.SplitPaneFactory;
-import gui.environment.Environment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Profile;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.grammar.GrammarInputPane;
-import gui.grammar.parse.CYKParsePane;
-import gui.sim.multiple.InputTableModel;
+import org.wharvex.jflap.gui.JTableExtender;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Profile;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.grammar.GrammarInputPane;
+import org.wharvex.jflap.gui.grammar.parse.CYKParsePane;
+import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
 import automata.Automaton;
 
 import automata.turing.TuringMachine;

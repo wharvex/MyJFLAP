@@ -18,11 +18,11 @@
 package org.wharvex.jflap.gui.action;
 
 import automata.*;
-import gui.editor.ArrowDisplayOnlyTool;
-import gui.environment.Environment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.viewer.*;
+import org.wharvex.jflap.gui.editor.ArrowDisplayOnlyTool;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.viewer.*;
 
 import java.awt.BorderLayout;
 import java.awt.event.*;

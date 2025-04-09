@@ -20,13 +20,13 @@
 
 package org.wharvex.jflap.gui.regular;
 
-import gui.editor.ArrowNontransitionTool;
-import gui.editor.ToolBox;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Universe;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
+import org.wharvex.jflap.gui.editor.ToolBox;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

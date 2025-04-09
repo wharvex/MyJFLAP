@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Environment;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;

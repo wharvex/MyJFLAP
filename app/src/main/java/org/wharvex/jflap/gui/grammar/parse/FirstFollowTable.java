@@ -21,8 +21,8 @@
 package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Grammar;
-import gui.LeftTable;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.LeftTable;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Color;
 import java.awt.Component;

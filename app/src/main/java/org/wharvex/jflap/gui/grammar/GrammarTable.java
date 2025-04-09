@@ -22,9 +22,9 @@ package org.wharvex.jflap.gui.grammar;
 
 import grammar.Grammar;
 import grammar.Production;
-import gui.HighlightTable;
-import gui.TableTextSizeSlider;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.HighlightTable;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

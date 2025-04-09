@@ -20,9 +20,9 @@ package org.wharvex.jflap.gui.environment;
 import file.Codec;
 import file.EncodeException;
 import file.ParseException;
-import gui.editor.EditBlockPane;
-import gui.editor.EditorPane;
-import gui.grammar.GrammarInputPane;
+import org.wharvex.jflap.gui.editor.EditBlockPane;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.grammar.GrammarInputPane;
 import org.wharvex.jflap.gui.environment.Environment;
 
 import java.awt.BorderLayout;

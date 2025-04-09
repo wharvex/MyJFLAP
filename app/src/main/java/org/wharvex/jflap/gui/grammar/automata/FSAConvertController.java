@@ -27,7 +27,7 @@ import automata.fsa.FiniteStateAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.reg.RegularGrammar;
-import gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.util.*;
 
 /**

@@ -22,7 +22,7 @@ package org.wharvex.jflap.pumping;
 
 import java.io.Serializable;
 import java.util.*;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 
 /**
  * A <code>ContextFreePumpingLemma</code> is a <code>PumpingLemma</code> that 

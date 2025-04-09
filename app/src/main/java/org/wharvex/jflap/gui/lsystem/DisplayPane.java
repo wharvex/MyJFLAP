@@ -22,8 +22,8 @@ package org.wharvex.jflap.gui.lsystem;
 
 import grammar.lsystem.Expander;
 import grammar.lsystem.LSystem;
-import gui.ImageDisplayComponent;
-import gui.transform.Matrix;
+import org.wharvex.jflap.gui.ImageDisplayComponent;
+import org.wharvex.jflap.gui.transform.Matrix;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

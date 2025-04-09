@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.pumping;
 
-import gui.environment.Environment;
-import gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 import pumping.*;
 
 import java.awt.*;

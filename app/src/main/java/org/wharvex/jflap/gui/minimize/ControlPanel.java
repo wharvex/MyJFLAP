@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.minimize;
 
-import gui.TooltipAction;
-import gui.tree.SelectTreeDrawer;
+import org.wharvex.jflap.gui.TooltipAction;
+import org.wharvex.jflap.gui.tree.SelectTreeDrawer;
 
 import java.awt.event.ActionEvent;
 

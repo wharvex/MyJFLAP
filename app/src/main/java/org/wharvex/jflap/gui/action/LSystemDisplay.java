@@ -18,9 +18,9 @@
 package org.wharvex.jflap.gui.action;
 
 import grammar.lsystem.*;
-import gui.environment.LSystemEnvironment;
-import gui.environment.tag.CriticalTag;
-import gui.lsystem.DisplayPane;
+import org.wharvex.jflap.gui.environment.LSystemEnvironment;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.lsystem.DisplayPane;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;

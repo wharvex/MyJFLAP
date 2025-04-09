@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.RegularEnvironment;
+import org.wharvex.jflap.gui.environment.RegularEnvironment;
 
 import javax.swing.Icon;
 

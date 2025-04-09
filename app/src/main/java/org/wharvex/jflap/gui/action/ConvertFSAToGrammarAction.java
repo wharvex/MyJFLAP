@@ -17,14 +17,14 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.environment.AutomatonEnvironment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.Universe;
-import gui.grammar.automata.ConvertController;
-import gui.grammar.automata.ConvertPane;
-import gui.grammar.automata.FSAConvertController;
-import gui.viewer.SelectionDrawer;
-import gui.viewer.ZoomPane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.grammar.automata.ConvertController;
+import org.wharvex.jflap.gui.grammar.automata.ConvertPane;
+import org.wharvex.jflap.gui.grammar.automata.FSAConvertController;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.viewer.ZoomPane;
 
 import java.awt.BorderLayout;
 import java.util.HashSet;

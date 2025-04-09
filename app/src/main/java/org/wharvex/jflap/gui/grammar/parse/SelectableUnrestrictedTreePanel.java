@@ -21,7 +21,7 @@ package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Production;
 import grammar.parse.ParseNode;
-import gui.tree.DefaultNodeDrawer;
+import org.wharvex.jflap.gui.tree.DefaultNodeDrawer;
 
 import java.awt.Color;
 import java.awt.Dimension;

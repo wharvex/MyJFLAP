@@ -22,8 +22,8 @@ package org.wharvex.jflap.gui.regular;
 
 import automata.*;
 import automata.fsa.*;
-import gui.environment.FrameFactory;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.FrameFactory;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Point;
 import java.awt.geom.AffineTransform;

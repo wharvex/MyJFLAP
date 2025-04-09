@@ -22,7 +22,7 @@ package org.wharvex.jflap.gui.grammar;
 
 import grammar.Grammar;
 import grammar.Production;
-import gui.GrowableTableModel;
+import org.wharvex.jflap.gui.GrowableTableModel;
 import java.util.ArrayList;
 import javax.swing.Icon;
 

@@ -24,8 +24,8 @@ import automata.Automaton;
 import automata.Note;
 import automata.State;
 import automata.event.*;
-import gui.JMultiLineToolTip;
-import gui.editor.EditorPane;
+import org.wharvex.jflap.gui.JMultiLineToolTip;
+import org.wharvex.jflap.gui.editor.EditorPane;
 
 import java.awt.*;
 import java.awt.event.ComponentAdapter;

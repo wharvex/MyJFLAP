@@ -19,7 +19,7 @@ package org.wharvex.jflap.gui.environment;
 
 import grammar.Grammar;
 import grammar.UnboundGrammar;
-import gui.grammar.GrammarInputPane;
+import org.wharvex.jflap.gui.grammar.GrammarInputPane;
 
 import java.io.Serializable;
 import javax.swing.event.TableModelEvent;

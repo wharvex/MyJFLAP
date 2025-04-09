@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.pumping;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 import java.io.Serializable;
 
 /**

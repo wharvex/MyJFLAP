@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.lsystem;
 
-import gui.GrowableTableModel;
+import org.wharvex.jflap.gui.GrowableTableModel;
 import java.util.*;
 
 /**

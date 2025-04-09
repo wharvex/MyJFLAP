@@ -21,9 +21,9 @@
 package org.wharvex.jflap.gui.editor;
 
 import automata.Automaton;
-import gui.SuperMouseAdapter;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.SuperMouseAdapter;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import java.awt.Graphics;
 import javax.swing.Icon;
 import javax.swing.KeyStroke;

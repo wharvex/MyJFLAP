@@ -20,13 +20,13 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Environment;
-import gui.environment.EnvironmentFrame;
-import gui.environment.tag.CriticalTag;
-import gui.viewer.AutomatonDrawer;
-import gui.viewer.AutomatonPane;
-import gui.viewer.CurvedArrow;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.CurvedArrow;
 
 import java.awt.Color;
 import java.awt.Component;

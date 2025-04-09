@@ -41,7 +41,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import file.xml.DOMPrettier;
-import gui.editor.TMTransitionCreator;
+import org.wharvex.jflap.gui.editor.TMTransitionCreator;
 
 public class Profile {
   public static String LAMBDA = "\u03BB";     // Jinghui Lim added stuff

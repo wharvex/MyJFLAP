@@ -23,7 +23,7 @@ package org.wharvex.jflap.gui.editor;
 import automata.Automaton;
 import automata.State;
 import automata.Transition;
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import java.awt.Point;
 import javax.swing.JOptionPane;
 

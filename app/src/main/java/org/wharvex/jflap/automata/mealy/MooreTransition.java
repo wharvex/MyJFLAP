@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.mealy;
 
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Universe;
 import automata.State;
 import automata.Transition;
 

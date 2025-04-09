@@ -18,10 +18,10 @@
 package org.wharvex.jflap.gui.environment;
 
 import file.Encoder;
-import gui.action.MultipleSimulateAction.MultiplePane;
-import gui.environment.tag.EditorTag;
-import gui.environment.tag.Satisfier;
-import gui.environment.tag.Tag;
+import org.wharvex.jflap.gui.action.MultipleSimulateAction.MultiplePane;
+import org.wharvex.jflap.gui.environment.tag.EditorTag;
+import org.wharvex.jflap.gui.environment.tag.Satisfier;
+import org.wharvex.jflap.gui.environment.tag.Tag;
 
 import java.awt.*;
 import java.io.File;

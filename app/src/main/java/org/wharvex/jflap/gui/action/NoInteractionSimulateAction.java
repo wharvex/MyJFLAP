@@ -18,8 +18,8 @@
 package org.wharvex.jflap.gui.action;
 
 import grammar.Grammar;
-import gui.environment.Environment;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Component;
 import java.util.ArrayList;

@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata;
 
-import gui.action.OpenAction;
-import gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.action.OpenAction;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 
 import java.awt.Color;
 import java.awt.Point;
@@ -55,7 +55,7 @@ import automata.event.AutomataNoteListener;
 import automata.mealy.MooreMachine;
 import automata.turing.TuringMachine;
 
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 
 /**

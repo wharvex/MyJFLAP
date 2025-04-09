@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.lsystem;
 
-import gui.transform.Matrix;
+import org.wharvex.jflap.gui.transform.Matrix;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Stroke;

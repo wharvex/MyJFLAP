@@ -22,9 +22,9 @@ import grammar.Grammar;
 import grammar.Production;
 import grammar.ProductionChecker;
 import grammar.UnrestrictedGrammar;
-import gui.environment.EnvironmentFrame;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.EnvironmentFrame;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.event.ActionEvent;
 

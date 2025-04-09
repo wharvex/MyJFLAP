@@ -21,8 +21,8 @@ import org.wharvex.jflap.file.Codec;
 import org.wharvex.jflap.file.ParseException;
 import file.xml.Transducer;
 import file.xml.TransducerFactory;
-import gui.action.NewAction;
-import gui.action.OpenAction;
+import org.wharvex.jflap.gui.action.NewAction;
+import org.wharvex.jflap.gui.action.OpenAction;
 import org.wharvex.jflap.gui.environment.Profile;
 import org.wharvex.jflap.gui.environment.Universe;
 

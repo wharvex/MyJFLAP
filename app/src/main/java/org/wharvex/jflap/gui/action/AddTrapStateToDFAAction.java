@@ -23,12 +23,12 @@ import javax.swing.JOptionPane;
 
 import java.util.*;
 
-import gui.deterministic.AddTrapStatePane;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Environment;
-import gui.environment.Universe;
-import gui.environment.tag.CriticalTag;
-import gui.minimize.MinimizePane;
+import org.wharvex.jflap.gui.deterministic.AddTrapStatePane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.minimize.MinimizePane;
 import automata.Automaton;
 import automata.AutomatonChecker;
 import automata.State;

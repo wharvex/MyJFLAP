@@ -19,8 +19,8 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.environment.Universe;
-import gui.environment.Profile;
+import org.wharvex.jflap.gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.Profile;
 
 import java.util.Deque;
 import java.util.LinkedList;

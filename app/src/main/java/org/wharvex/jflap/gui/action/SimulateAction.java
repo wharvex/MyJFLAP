@@ -25,17 +25,17 @@ import automata.NondeterminismDetectorFactory;
 import automata.SimulatorFactory;
 import automata.State;
 import grammar.Grammar;
-import gui.InputBox;
-import gui.editor.EditBlockPane;
-import gui.environment.Environment;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.InputBox;
+import org.wharvex.jflap.gui.editor.EditBlockPane;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
-import gui.sim.SimulatorPane;
-import gui.environment.tag.CriticalTag;
+import org.wharvex.jflap.gui.sim.SimulatorPane;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 
 import javax.swing.*;
 

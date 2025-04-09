@@ -19,8 +19,8 @@ package org.wharvex.jflap.gui.action;
 
 import grammar.Grammar;
 import grammar.UnrestrictedGrammar;
-import gui.environment.GrammarEnvironment;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.environment.Universe;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;

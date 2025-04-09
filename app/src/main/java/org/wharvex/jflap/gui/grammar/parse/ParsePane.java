@@ -21,11 +21,11 @@
 package org.wharvex.jflap.gui.grammar.parse;
 
 import grammar.Grammar;
-import gui.SplitPaneFactory;
-import gui.TableTextSizeSlider;
-import gui.environment.GrammarEnvironment;
-import gui.grammar.*;
-import gui.tree.*;
+import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.TableTextSizeSlider;
+import org.wharvex.jflap.gui.environment.GrammarEnvironment;
+import org.wharvex.jflap.gui.grammar.*;
+import org.wharvex.jflap.gui.tree.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

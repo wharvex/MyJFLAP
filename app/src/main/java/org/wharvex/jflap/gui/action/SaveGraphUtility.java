@@ -36,12 +36,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JComponent;
 import javax.swing.filechooser.FileFilter;
 
-import gui.editor.EditorPane;
-import gui.environment.AutomatonEnvironment;
-import gui.environment.Environment;
-import gui.viewer.AutomatonPane;
-import gui.viewer.SelectionDrawer;
-import gui.environment.Universe;
+import org.wharvex.jflap.gui.editor.EditorPane;
+import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
+import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.SelectionDrawer;
+import org.wharvex.jflap.gui.environment.Universe;
 
 
 /**

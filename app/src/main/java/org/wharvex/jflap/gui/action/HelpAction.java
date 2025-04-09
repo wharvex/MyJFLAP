@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import gui.WebFrame;
+import org.wharvex.jflap.gui.WebFrame;
 
 import javax.swing.KeyStroke;
 import java.awt.event.KeyEvent;

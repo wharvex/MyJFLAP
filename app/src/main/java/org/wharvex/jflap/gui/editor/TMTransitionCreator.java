@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import gui.viewer.AutomatonPane;
+import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
