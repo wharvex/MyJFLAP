@@ -25,7 +25,7 @@ import org.wharvex.jflap.grammar.UnboundGrammar;
 import java.io.*;
 import java.util.Map;
 
-import regular.RegularExpression;
+import org.wharvex.jflap.regular.RegularExpression;
 
 /**
  * This is the codec for reading JFLAP structures in the JFLAP 3 saved file

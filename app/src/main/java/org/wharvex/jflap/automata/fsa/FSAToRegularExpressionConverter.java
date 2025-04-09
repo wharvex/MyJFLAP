@@ -24,7 +24,7 @@ import org.wharvex.jflap.gui.environment.Universe;
 
 import java.util.ArrayList;
 
-import regular.Discretizer;
+import org.wharvex.jflap.regular.Discretizer;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.StatePlacer;

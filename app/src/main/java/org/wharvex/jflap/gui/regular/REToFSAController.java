@@ -30,7 +30,7 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
 import java.util.*;
 import javax.swing.JOptionPane;
-import regular.Discretizer;
+import org.wharvex.jflap.regular.Discretizer;
 
 /**
  * The regular expression to FSA controller moderates the conversion of a

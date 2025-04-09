@@ -30,7 +30,7 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.awt.*;
 import javax.swing.*;
-import regular.RegularExpression;
+import org.wharvex.jflap.regular.RegularExpression;
 
 /**
  * This object monitors and guides the user actions in the conversion of an FSA

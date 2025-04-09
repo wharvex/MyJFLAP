@@ -21,7 +21,7 @@ import org.wharvex.jflap.gui.environment.RegularEnvironment;
 
 import javax.swing.Icon;
 
-import regular.RegularExpression;
+import org.wharvex.jflap.regular.RegularExpression;
 
 /**
  * The <CODE>RegularAction</CODE> is the general action that various

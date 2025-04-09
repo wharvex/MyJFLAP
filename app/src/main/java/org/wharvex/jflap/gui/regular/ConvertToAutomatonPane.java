@@ -40,7 +40,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
-import regular.Discretizer;
+import org.wharvex.jflap.regular.Discretizer;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.fsa.FSATransition;
 import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;

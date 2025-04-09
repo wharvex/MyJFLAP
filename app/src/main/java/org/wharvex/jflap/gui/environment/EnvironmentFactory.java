@@ -39,7 +39,7 @@ import org.wharvex.jflap.pumping.ContextFreePumpingLemma;
 import org.wharvex.jflap.pumping.PumpingLemma;
 import org.wharvex.jflap.pumping.RegularPumpingLemma;
 
-import regular.RegularExpression;
+import org.wharvex.jflap.regular.RegularExpression;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.mealy.MealyMachine;
 import org.wharvex.jflap.automata.mealy.MooreMachine;

@@ -23,7 +23,7 @@ package org.wharvex.jflap.file.xml;
 import org.wharvex.jflap.file.ParseException;
 import java.util.Map;
 import org.w3c.dom.*;
-import regular.*;
+import org.wharvex.jflap.regular.*;
 
 /**
  * This transducer is the codec for {@link regular.RegularExpression} objects.

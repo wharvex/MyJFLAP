@@ -25,7 +25,7 @@ import java.awt.event.*;
 import java.lang.ref.*;
 import javax.swing.*;
 import javax.swing.event.*;
-import regular.*;
+import org.wharvex.jflap.regular.*;
 
 /**
  * The editor pane for a regular expression allows the user to change the

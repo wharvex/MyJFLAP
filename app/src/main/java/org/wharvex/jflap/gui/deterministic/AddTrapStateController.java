@@ -37,7 +37,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-import regular.RegularExpression;
+import org.wharvex.jflap.regular.RegularExpression;
 
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;

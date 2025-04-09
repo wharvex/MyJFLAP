@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import regular.RegularExpression;
-import regular.ExpressionChangeListener;
-import regular.ExpressionChangeEvent;
+import org.wharvex.jflap.regular.RegularExpression;
+import org.wharvex.jflap.regular.ExpressionChangeListener;
+import org.wharvex.jflap.regular.ExpressionChangeEvent;
 
 /**
  * This is the environment for a regular expression.
