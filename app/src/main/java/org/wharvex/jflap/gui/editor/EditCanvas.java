@@ -27,7 +27,7 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * An <CODE>EditCanvas</CODE> is an extension of <CODE>AutomatonPane</CODE>

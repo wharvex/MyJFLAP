@@ -61,7 +61,7 @@ import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import org.wharvex.jflap.automata.turing.TMTransition;
 import org.wharvex.jflap.automata.turing.TMState;
 import org.wharvex.jflap.automata.turing.TuringMachine;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * The arrow tool is used mostly for editing existing objects.

@@ -43,7 +43,7 @@ import org.wharvex.jflap.automata.mealy.MooreMachine;
 import file.DataException;
 import org.wharvex.jflap.automata.turing.TMState;
 import org.wharvex.jflap.automata.turing.TuringMachine;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import java.awt.Point;
 

@@ -44,7 +44,7 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import org.wharvex.jflap.automata.event.AutomataStateEvent;
 import org.wharvex.jflap.automata.event.AutomataStateListener;

@@ -29,7 +29,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.Icon;
 import javax.swing.KeyStroke;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * Redo time.

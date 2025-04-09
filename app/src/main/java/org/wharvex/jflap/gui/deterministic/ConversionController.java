@@ -48,7 +48,7 @@ import org.wharvex.jflap.automata.fsa.NFAToDFA;
 import org.wharvex.jflap.automata.graph.Graph;
 import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * This is the class that controls the conversion of an NFA to a DFA.

@@ -32,7 +32,7 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import sun.security.util.Debug;
 

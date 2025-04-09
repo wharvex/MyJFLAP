@@ -27,7 +27,7 @@ import java.util.LinkedList;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.turing.TuringMachine;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * This class will store the states between actions, that we may undo them.

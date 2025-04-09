@@ -23,7 +23,7 @@ package org.wharvex.jflap.automata.fsa;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.ClosureTaker;

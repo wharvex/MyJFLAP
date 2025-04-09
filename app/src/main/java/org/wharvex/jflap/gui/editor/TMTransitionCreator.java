@@ -41,7 +41,7 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.automata.turing.TMTransition;
 import org.wharvex.jflap.automata.turing.TuringMachine;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * This is the creator of transitions in turing machines.

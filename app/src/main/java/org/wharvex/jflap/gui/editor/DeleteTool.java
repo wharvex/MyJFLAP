@@ -32,7 +32,7 @@ import javax.swing.KeyStroke;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 /**
  * A tool that handles the deletion of states and transitions.
  * 

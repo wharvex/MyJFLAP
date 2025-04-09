@@ -22,7 +22,7 @@ package org.wharvex.jflap.gui.editor;
 
 import javax.swing.*;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import java.awt.Component;
 import java.awt.Cursor;

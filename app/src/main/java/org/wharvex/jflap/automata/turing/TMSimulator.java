@@ -36,7 +36,7 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.gui.environment.Universe;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import javax.swing.JOptionPane;
 

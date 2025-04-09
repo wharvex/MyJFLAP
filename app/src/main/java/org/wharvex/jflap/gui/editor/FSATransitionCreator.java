@@ -25,7 +25,7 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;

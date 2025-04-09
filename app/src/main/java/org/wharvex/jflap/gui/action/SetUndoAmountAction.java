@@ -30,7 +30,7 @@ import javax.swing.JFileChooser;
 import javax.swing.KeyStroke;
 import javax.swing.JOptionPane;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * The <CODE>SetUndoAmount</CODE> is an action to set the amount of Undos that are stored for automaton construction.

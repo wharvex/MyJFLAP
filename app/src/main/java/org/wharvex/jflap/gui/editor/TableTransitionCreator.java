@@ -43,7 +43,7 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.automata.turing.TMTransition;
 import org.wharvex.jflap.automata.turing.Tape;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 /**
  * This allows the user to create transition creators that have tables directly
  * in the editing window with a minimum of effort.

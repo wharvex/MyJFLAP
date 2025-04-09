@@ -25,7 +25,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.AutomatonSimulator;

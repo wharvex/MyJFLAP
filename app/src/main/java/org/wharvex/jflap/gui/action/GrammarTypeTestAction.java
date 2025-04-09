@@ -30,7 +30,7 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JOptionPane;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * Action for testing grammar to see what type of grammar it is.

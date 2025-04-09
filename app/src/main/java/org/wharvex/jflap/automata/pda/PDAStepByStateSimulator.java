@@ -25,7 +25,7 @@ import java.util.Iterator;
 
 import javax.swing.JOptionPane;
 
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.AutomatonSimulator;

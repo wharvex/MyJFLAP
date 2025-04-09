@@ -33,7 +33,7 @@ import java.awt.Font;
 
 import javax.swing.*;
 import javax.swing.table.*;
-import debug.EDebug;
+import org.wharvex.jflap.debug.EDebug;
 
 /**
  * The <CODE>GrammarTable</CODE> is a simple extension to the <CODE>JTable</CODE>
