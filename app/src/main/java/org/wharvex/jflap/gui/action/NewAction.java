@@ -17,6 +17,11 @@
 
 package org.wharvex.jflap.gui.action;
 
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.turing.TuringMachine;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.lsystem.LSystem;
 import org.wharvex.jflap.gui.environment.*;
 import org.wharvex.jflap.gui.menu.MenuBarCreator;
 import org.wharvex.jflap.gui.pumping.CFPumpingLemmaChooser;
@@ -33,6 +38,7 @@ import javax.swing.*;
 
 import org.wharvex.jflap.automata.mealy.MealyMachine;
 import org.wharvex.jflap.automata.mealy.MooreMachine;
+import org.wharvex.jflap.regular.RegularExpression;
 
 /**
  * The <CODE>NewAction</CODE> handles when the user decides to create some new
@@ -174,7 +180,7 @@ public class NewAction extends RestrictedAction {
       button = new JButton("Finite Automaton");
       button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-          createWindow(new automata.fsa.FiniteStateAutomaton());
+          createWindow(new FiniteStateAutomaton());
         }
       });
       getContentPane().add(button);
@@ -204,9 +210,9 @@ public class NewAction extends RestrictedAction {
               JOptionPane.INFORMATION_MESSAGE, null,
               possibleValues, possibleValues[0]);
           if (selectedValue == possibleValues[0]) {
-            createWindow(new automata.pda.PushdownAutomaton());
+            createWindow(new PushdownAutomaton());
           } else if (selectedValue == possibleValues[1]) {
-            createWindow(new automata.pda.PushdownAutomaton(true));
+            createWindow(new PushdownAutomaton(true));
           }
         }
       });
@@ -215,7 +221,7 @@ public class NewAction extends RestrictedAction {
       button = new JButton("Turing Machine");
       button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-          createWindow(new automata.turing.TuringMachine(1));
+          createWindow(new TuringMachine(1));
         }
       });
       getContentPane().add(button);
@@ -234,7 +240,7 @@ public class NewAction extends RestrictedAction {
               null, INTS, INTS[0]);
           if (n == null)
             return;
-          createWindow(new automata.turing.TuringMachine(n.intValue()));
+          createWindow(new TuringMachine(n.intValue()));
         }
 
         private Integer[] INTS = null;
@@ -244,7 +250,7 @@ public class NewAction extends RestrictedAction {
       button = new JButton("Grammar");
       button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-          createWindow(new grammar.cfg.ContextFreeGrammar());
+          createWindow(new ContextFreeGrammar());
         }
       });
       getContentPane().add(button);
@@ -252,7 +258,7 @@ public class NewAction extends RestrictedAction {
       button = new JButton("L-System");
       button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-          createWindow(new grammar.lsystem.LSystem());
+          createWindow(new LSystem());
         }
       });
       getContentPane().add(button);
@@ -260,7 +266,7 @@ public class NewAction extends RestrictedAction {
       button = new JButton("Regular Expression");
       button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-          createWindow(new regular.RegularExpression());
+          createWindow(new RegularExpression());
         }
       });
       getContentPane().add(button);

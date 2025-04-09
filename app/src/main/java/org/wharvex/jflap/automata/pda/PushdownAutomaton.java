@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,9 +15,6 @@
  */
 
 
-
-
-
 package org.wharvex.jflap.automata.pda;
 
 import org.wharvex.jflap.automata.Automaton;
@@ -25,32 +22,32 @@ import org.wharvex.jflap.automata.Automaton;
 /**
  * This subclass of <CODE>Automaton</CODE> is specifically for a definition of
  * a Pushdown Automaton.
- * 
+ *
  * @author Ryan Cavalcante
  */
 
 public class PushdownAutomaton extends Automaton {
-	public boolean singleInputPDA = false;
-	
-	/**
-	 * Creates a pushdown automaton with no states and no transitions.
-	 */
-	public PushdownAutomaton(boolean singleinput) {
-		super();
-		singleInputPDA = singleinput;
-	}
-	
-	public PushdownAutomaton(){
-		super();
-	}
+  public boolean singleInputPDA = false;
 
-	/**
-	 * Returns the class of <CODE>Transition</CODE> this automaton must
-	 * accept.
-	 * 
-	 * @return the <CODE>Class</CODE> object for <CODE>automata.pda.PDATransition</CODE>
-	 */
-	protected Class getTransitionClass() {
-		return automata.pda.PDATransition.class;
-	}
+  /**
+   * Creates a pushdown automaton with no states and no transitions.
+   */
+  public PushdownAutomaton(boolean singleinput) {
+    super();
+    singleInputPDA = singleinput;
+  }
+
+  public PushdownAutomaton() {
+    super();
+  }
+
+  /**
+   * Returns the class of <CODE>Transition</CODE> this automaton must
+   * accept.
+   *
+   * @return the <CODE>Class</CODE> object for <CODE>automata.pda.PDATransition</CODE>
+   */
+  protected Class getTransitionClass() {
+    return PDATransition.class;
+  }
 }

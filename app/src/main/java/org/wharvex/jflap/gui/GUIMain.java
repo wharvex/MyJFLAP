@@ -92,7 +92,7 @@ public class GUIMain {
     try {
       // This is a useless statement that forces the catcher to
       // compile.
-      if (gui.ThrowableCatcher.class == null)
+      if (ThrowableCatcher.class == null)
         ;
       System.setProperty("sun.awt.exception.handler",
           "gui.ThrowableCatcher");

@@ -41,6 +41,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import org.wharvex.jflap.file.xml.DOMPrettier;
+import org.wharvex.jflap.gui.AboutBox;
 import org.wharvex.jflap.gui.editor.TMTransitionCreator;
 
 public class Profile {
@@ -105,12 +106,12 @@ public class Profile {
 
   //default to acceptByFinalState, since that was how it used to be
   private boolean turingAcceptByFinalState;
-      //I would rather have it a better way, but I'm short on Time - ~Henry
+  //I would rather have it a better way, but I'm short on Time - ~Henry
   private boolean turingAcceptByHalting;
-      //I would rather have it a better way, but I'm short on Time - ~Henry
+  //I would rather have it a better way, but I'm short on Time - ~Henry
 
   private boolean turingAllowStay;
-      //default to true since that was the old implementation
+  //default to true since that was the old implementation
 
   /**
    * A JCheckBoxMenuItem that displays and allows one to change transTuringFinal.
@@ -294,7 +295,7 @@ public class Profile {
       builder = factory.newDocumentBuilder();
       Document doc = builder.newDocument();
       doc.appendChild(doc.createComment("Created with JFLAP "
-          + gui.AboutBox.VERSION + "."));
+          + AboutBox.VERSION + "."));
       // Create and add the <structure> element.
       Element structureElement = createElement(doc, STRUCTURE_NAME, null,
           null);

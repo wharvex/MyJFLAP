@@ -22,6 +22,7 @@ import org.wharvex.jflap.automata.fsa.*;
 import org.wharvex.jflap.automata.graph.*;
 import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import org.wharvex.jflap.gui.SplitPaneFactory;
+import org.wharvex.jflap.gui.SuperMouseAdapter;
 import org.wharvex.jflap.gui.editor.*;
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.tree.*;
@@ -99,7 +100,7 @@ public class MinimizePane extends JPanel {
    */
   public AutomatonPane initAutomatonPane() {
     AutomatonPane apane = new AutomatonPane(automatonDrawer);
-    gui.SuperMouseAdapter a = new ArrowMinimizeTool(apane, automatonDrawer);
+    SuperMouseAdapter a = new ArrowMinimizeTool(apane, automatonDrawer);
     apane.addMouseListener(a);
     apane.addMouseMotionListener(a);
     return apane;
@@ -110,7 +111,7 @@ public class MinimizePane extends JPanel {
    */
   public TreePanel initTreePane() {
     final TreePanel tpane = new TreePanel(treeDrawer);
-    gui.SuperMouseAdapter a = new gui.SuperMouseAdapter() {
+    SuperMouseAdapter a = new SuperMouseAdapter() {
       public void mouseClicked(MouseEvent event) {
         TreeNode n = tpane.nodeAtPoint(event.getPoint());
         controller.nodeClicked((MinimizeTreeNode) n, event);

@@ -53,7 +53,7 @@ public class QuitAction extends RestrictedAction {
         return;
 
     //modified by Moti Ben-Ari
-    if (gui.Main.getDontQuit())
+    if (org.wharvex.jflap.gui.GUIMain.getDontQuit())
       NewAction.closeNew();
     else
       System.exit(0);

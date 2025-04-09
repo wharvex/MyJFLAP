@@ -17,6 +17,8 @@
 
 package org.wharvex.jflap.gui.action;
 
+import org.wharvex.jflap.automata.fsa.FSAStepByStateSimulator;
+import org.wharvex.jflap.automata.pda.PDAStepByStateSimulator;
 import org.wharvex.jflap.gui.environment.Environment;
 
 import java.awt.event.InputEvent;
@@ -59,10 +61,10 @@ public class SimulateNoClosureAction extends SimulateAction {
    * @return a simulator for this automaton
    */
   protected AutomatonSimulator getSimulator(Automaton automaton) {
-    if (automaton instanceof automata.fsa.FiniteStateAutomaton)
-      return new automata.fsa.FSAStepByStateSimulator(automaton);
+    if (automaton instanceof FiniteStateAutomaton)
+      return new FSAStepByStateSimulator(automaton);
     else
-      return new automata.pda.PDAStepByStateSimulator(automaton);
+      return new PDAStepByStateSimulator(automaton);
   }
 
   /**

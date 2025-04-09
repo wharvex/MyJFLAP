@@ -18,6 +18,7 @@
 package org.wharvex.jflap.gui.environment;
 
 import org.wharvex.jflap.file.*;
+import org.wharvex.jflap.gui.action.NewAction;
 
 import java.io.File;
 import java.io.IOException;
@@ -71,7 +72,7 @@ public class Universe {
     // that the file of an environment changes.
     env.addFileChangeListener(FILE_LISTENER);
     // Hide the new dialog box.
-    gui.action.NewAction.hideNew();
+    NewAction.hideNew();
 
     return ++numberRegistered;
   }
@@ -91,7 +92,7 @@ public class Universe {
 
     // If there are no other frames open, prompt for newness.
     if (numberOfFrames() == 0)
-      gui.action.NewAction.showNew();
+      NewAction.showNew();
   }
 
   /**

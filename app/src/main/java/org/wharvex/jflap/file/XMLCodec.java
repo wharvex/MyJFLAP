@@ -22,6 +22,10 @@ import java.util.Map;
 import javax.xml.parsers.*;
 
 import org.w3c.dom.*;
+import org.wharvex.jflap.file.xml.DOMPrettier;
+import org.wharvex.jflap.file.xml.Transducer;
+import org.wharvex.jflap.file.xml.TransducerFactory;
+import org.wharvex.jflap.gui.pumping.PumpingLemmaChooser;
 
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
@@ -99,9 +103,9 @@ public class XMLCodec extends Codec {
        * lemma from the chooser.
        */
       Document dom;
-      if (structure instanceof gui.pumping.PumpingLemmaChooser)
-        dom = transducer.toDOM(
-            ((gui.pumping.PumpingLemmaChooser) structure).getCurrent());
+      if (structure instanceof PumpingLemmaChooser)
+        dom =
+            transducer.toDOM(((PumpingLemmaChooser) structure).getCurrent());
       else
         dom = transducer.toDOM(structure);
 
