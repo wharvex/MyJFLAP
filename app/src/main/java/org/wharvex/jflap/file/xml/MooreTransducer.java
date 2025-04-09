@@ -29,7 +29,7 @@ import java.util.Set;
 
 import org.w3c.dom.*;
 
-import file.DataException;
+import org.wharvex.jflap.file.DataException;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.State;

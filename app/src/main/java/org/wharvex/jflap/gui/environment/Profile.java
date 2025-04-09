@@ -40,7 +40,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import file.xml.DOMPrettier;
+import org.wharvex.jflap.file.xml.DOMPrettier;
 import org.wharvex.jflap.gui.editor.TMTransitionCreator;
 
 public class Profile {

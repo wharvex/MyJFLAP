@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.file.xml;
 
-import file.ParseException;
+import org.wharvex.jflap.file.ParseException;
 import java.util.Map;
 import org.w3c.dom.*;
 import regular.*;

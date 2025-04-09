@@ -40,7 +40,7 @@ import org.wharvex.jflap.automata.graph.AutomatonGraph;
 import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import org.wharvex.jflap.automata.mealy.MooreMachine;
-import file.DataException;
+import org.wharvex.jflap.file.DataException;
 import org.wharvex.jflap.automata.turing.TMState;
 import org.wharvex.jflap.automata.turing.TuringMachine;
 import org.wharvex.jflap.debug.EDebug;

@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import file.Codec;
-import file.EncodeException;
-import file.ParseException;
+import org.wharvex.jflap.file.Codec;
+import org.wharvex.jflap.file.EncodeException;
+import org.wharvex.jflap.file.ParseException;
 import org.wharvex.jflap.gui.editor.EditBlockPane;
 import org.wharvex.jflap.gui.editor.EditorPane;
 import org.wharvex.jflap.gui.grammar.GrammarInputPane;

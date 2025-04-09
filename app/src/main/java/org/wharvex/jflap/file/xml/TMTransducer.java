@@ -35,7 +35,7 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.automata.turing.TMTransition;
 import org.wharvex.jflap.automata.turing.TuringMachine;
-import file.DataException;
+import org.wharvex.jflap.file.DataException;
 
 /**
  * This is the transducer for encoding and decoding

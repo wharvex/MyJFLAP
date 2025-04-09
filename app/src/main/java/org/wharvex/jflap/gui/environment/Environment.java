@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import file.Encoder;
+import org.wharvex.jflap.file.Encoder;
 import org.wharvex.jflap.gui.action.MultipleSimulateAction.MultiplePane;
 import org.wharvex.jflap.gui.environment.tag.EditorTag;
 import org.wharvex.jflap.gui.environment.tag.Satisfier;

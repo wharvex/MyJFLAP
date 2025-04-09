@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.action;
 
-import file.Codec;
-import file.DataException;
-import file.ParseException;
+import org.wharvex.jflap.file.Codec;
+import org.wharvex.jflap.file.DataException;
+import org.wharvex.jflap.file.ParseException;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 import org.wharvex.jflap.gui.environment.Universe;
