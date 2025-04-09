@@ -17,8 +17,8 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import grammar.Grammar;
-import grammar.UnboundGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.UnboundGrammar;
 import org.wharvex.jflap.gui.grammar.GrammarInputPane;
 
 import java.io.Serializable;

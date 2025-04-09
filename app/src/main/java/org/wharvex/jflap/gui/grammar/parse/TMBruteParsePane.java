@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import grammar.Grammar;
-import grammar.Production;
-import grammar.parse.*;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.parse.*;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
 import org.wharvex.jflap.gui.tree.*;

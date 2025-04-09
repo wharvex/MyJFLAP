@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.environment.Universe;
 
 import java.util.*;

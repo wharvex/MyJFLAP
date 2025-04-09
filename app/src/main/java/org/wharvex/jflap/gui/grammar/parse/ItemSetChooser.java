@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import grammar.*;
-import grammar.parse.*;
+import org.wharvex.jflap.grammar.*;
+import org.wharvex.jflap.grammar.parse.*;
 import org.wharvex.jflap.gui.SuperMouseAdapter;
 import org.wharvex.jflap.gui.grammar.GrammarTable;
 import org.wharvex.jflap.gui.grammar.GrammarTableModel;

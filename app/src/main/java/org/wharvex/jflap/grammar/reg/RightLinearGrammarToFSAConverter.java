@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.grammar.reg;
 
-import grammar.Grammar;
-import grammar.GrammarToAutomatonConverter;
-import grammar.Production;
-import grammar.ProductionChecker;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.GrammarToAutomatonConverter;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.ProductionChecker;
 
 import java.awt.Point;
 

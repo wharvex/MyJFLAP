@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar.parse;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 
 /**
  * This is the brute parser for an unrestricted grammar.

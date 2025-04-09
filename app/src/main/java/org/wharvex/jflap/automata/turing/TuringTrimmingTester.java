@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.automata.turing;
 
-import grammar.Production;
+import org.wharvex.jflap.grammar.Production;
 
 import java.io.File;
 import java.io.FileNotFoundException;

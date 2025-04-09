@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.grammar.transform;
 
 import org.wharvex.jflap.automata.*;
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import org.wharvex.jflap.gui.*;
 import org.wharvex.jflap.gui.action.GrammarTransformAction;
 import org.wharvex.jflap.gui.editor.*;

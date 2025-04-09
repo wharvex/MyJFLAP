@@ -24,9 +24,9 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.automata.pda.PDAToCFGConverter;
 import org.wharvex.jflap.automata.pda.PushdownAutomaton;
-import grammar.Grammar;
-import grammar.Production;
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.util.*;
 

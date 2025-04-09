@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import grammar.parse.LLParseTable;
+import org.wharvex.jflap.grammar.parse.LLParseTable;
 import org.wharvex.jflap.gui.LeftTable;
 import org.wharvex.jflap.gui.environment.Universe;
 

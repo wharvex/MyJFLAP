@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.grammar;
 
-import grammar.Grammar;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
 import org.wharvex.jflap.gui.GrowableTableModel;
 import java.util.ArrayList;
 import javax.swing.Icon;

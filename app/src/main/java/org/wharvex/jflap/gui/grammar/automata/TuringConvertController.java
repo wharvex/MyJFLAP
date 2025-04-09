@@ -23,12 +23,12 @@ import java.util.*;
 
 import javax.swing.JOptionPane;
 
-import grammar.ConvertedUnrestrictedGrammar;
-import grammar.Grammar;
-import grammar.Production;
-import grammar.UnrestrictedGrammar;
-import grammar.UselessProductionRemover;
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.ConvertedUnrestrictedGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnrestrictedGrammar;
+import org.wharvex.jflap.grammar.UselessProductionRemover;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import org.wharvex.jflap.gui.grammar.transform.UselessController;

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar.cfg;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 
 /**
  * The context free grammar object is a representation of a context free

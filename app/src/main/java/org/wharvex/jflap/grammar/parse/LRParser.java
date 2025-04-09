@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar.parse;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import java.util.*;
 import javax.swing.tree.*;
 

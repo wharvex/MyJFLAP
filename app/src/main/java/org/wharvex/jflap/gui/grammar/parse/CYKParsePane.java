@@ -43,14 +43,14 @@ import javax.swing.tree.TreeNode;
 
 import java.util.*;
 
-import grammar.Grammar;
-import grammar.Production;
-import grammar.parse.BruteParser;
-import grammar.parse.BruteParserEvent;
-import grammar.parse.CYKParser;
-import grammar.parse.CYKTracer;
-import grammar.parse.ParseNode;
-import grammar.parse.UserParser;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.parse.BruteParser;
+import org.wharvex.jflap.grammar.parse.BruteParserEvent;
+import org.wharvex.jflap.grammar.parse.CYKParser;
+import org.wharvex.jflap.grammar.parse.CYKTracer;
+import org.wharvex.jflap.grammar.parse.ParseNode;
+import org.wharvex.jflap.grammar.parse.UserParser;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;

@@ -27,9 +27,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import grammar.Grammar;
-import grammar.Production;
-import grammar.UnboundGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnboundGrammar;
 
 /**
  * This transducer is the codec for {@link grammar.Grammar} objects.

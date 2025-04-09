@@ -21,7 +21,7 @@
 package org.wharvex.jflap.grammar.parse;
 
 import javax.swing.tree.*;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Production;
 import java.util.Arrays;
 
 /**

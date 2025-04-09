@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import grammar.Production;
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 import org.wharvex.jflap.gui.grammar.GrammarTableModel;
 
 import java.util.ArrayList;

@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.grammar.reg;
 
-import grammar.Production;
-import grammar.ProductionChecker;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.ProductionChecker;
 
 /**
  * This <CODE>RightLinearGrammar</CODE> is a regular grammar with the

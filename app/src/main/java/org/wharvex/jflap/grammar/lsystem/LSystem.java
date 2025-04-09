@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar.lsystem;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import java.io.Serializable;
 import java.util.*;
 

@@ -44,7 +44,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JTable;
 import javax.swing.JToolBar;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.JTableExtender;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.environment.Environment;

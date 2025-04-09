@@ -24,9 +24,9 @@ import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.automata.fsa.FSAToRegularGrammarConverter;
 import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
-import grammar.Grammar;
-import grammar.Production;
-import grammar.reg.RegularGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.reg.RegularGrammar;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import java.util.*;
 

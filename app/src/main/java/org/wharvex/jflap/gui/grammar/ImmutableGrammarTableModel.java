@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 
 /**
  * The <CODE>ImmutableGrammarTableModel</CODE> is a grammar table model that

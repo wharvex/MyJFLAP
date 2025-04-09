@@ -22,9 +22,9 @@ package org.wharvex.jflap.grammar.parse;
 import java.util.ArrayList;
 import java.util.*;
 
-import grammar.Grammar;
-import grammar.Production;
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 
 /**
  * Test Suite for CYK Tracer

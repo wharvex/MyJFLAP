@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.grammar.transform;
 
-import grammar.Grammar;
-import grammar.Production;
-import grammar.ProductionComparator;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.ProductionComparator;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.action.GrammarTransformAction;
 import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;

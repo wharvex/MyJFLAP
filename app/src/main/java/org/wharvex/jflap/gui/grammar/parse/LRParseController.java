@@ -21,8 +21,8 @@
 package org.wharvex.jflap.gui.grammar.parse;
 
 import javax.swing.tree.*;
-import grammar.parse.*;
-import grammar.*;
+import org.wharvex.jflap.grammar.parse.*;
+import org.wharvex.jflap.grammar.*;
 import java.util.*;
 
 import org.wharvex.jflap.gui.environment.Universe;

@@ -17,12 +17,12 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.CNFConverter;
-import grammar.Grammar;
-import grammar.LambdaProductionRemover;
-import grammar.Production;
-import grammar.UnitProductionRemover;
-import grammar.UselessProductionRemover;
+import org.wharvex.jflap.grammar.CNFConverter;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.LambdaProductionRemover;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnitProductionRemover;
+import org.wharvex.jflap.grammar.UselessProductionRemover;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import org.wharvex.jflap.gui.environment.Universe;

@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.grammar;
 
-import grammar.Grammar;
-import grammar.TuringChecker;
-import grammar.cfg.ContextFreeGrammar;
-import grammar.reg.RegularGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.TuringChecker;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.reg.RegularGrammar;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
 
 import javax.swing.table.*;

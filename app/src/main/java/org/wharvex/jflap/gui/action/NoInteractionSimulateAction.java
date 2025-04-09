@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.Universe;
 

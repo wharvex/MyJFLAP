@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.ConvertedUnrestrictedGrammar;
-import grammar.Grammar;
-import grammar.Production;
-import grammar.UnrestrictedGrammar;
+import org.wharvex.jflap.grammar.ConvertedUnrestrictedGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnrestrictedGrammar;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;

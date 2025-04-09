@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.lsystem;
 
-import grammar.lsystem.Expander;
-import grammar.lsystem.LSystem;
+import org.wharvex.jflap.grammar.lsystem.Expander;
+import org.wharvex.jflap.grammar.lsystem.LSystem;
 import org.wharvex.jflap.gui.ImageDisplayComponent;
 import org.wharvex.jflap.gui.transform.Matrix;
 

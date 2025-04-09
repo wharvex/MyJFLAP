@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.grammar.parse;
 
-import grammar.*;
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.*;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 import java.util.*;
 
 import javax.swing.JOptionPane;

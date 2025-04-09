@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar.reg;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 
 /**
  * The regular grammar object is a representation of a regular grammar. This

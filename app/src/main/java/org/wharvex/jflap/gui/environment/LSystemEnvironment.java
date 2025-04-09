@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import grammar.lsystem.LSystem;
+import org.wharvex.jflap.grammar.lsystem.LSystem;
 import org.wharvex.jflap.gui.lsystem.LSystemInputEvent;
 import org.wharvex.jflap.gui.lsystem.LSystemInputListener;
 import org.wharvex.jflap.gui.lsystem.LSystemInputPane;

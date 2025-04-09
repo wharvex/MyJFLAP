@@ -30,8 +30,8 @@ import java.io.IOException;
 import java.lang.reflect.*;
 import java.util.jar.*;
 
-import grammar.Grammar;
-import grammar.TuringChecker;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.TuringChecker;
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;

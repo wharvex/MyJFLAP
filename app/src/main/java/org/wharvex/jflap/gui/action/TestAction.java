@@ -20,7 +20,7 @@ package org.wharvex.jflap.gui.action;
 import org.wharvex.jflap.file.Codec;
 import org.wharvex.jflap.file.DataException;
 import org.wharvex.jflap.file.ParseException;
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 import org.wharvex.jflap.gui.environment.FrameFactory;

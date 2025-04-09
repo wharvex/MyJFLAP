@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.fsa;
 
-import grammar.Production;
-import grammar.reg.RegularGrammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.reg.RegularGrammar;
 
 import java.util.ArrayList;
 import java.util.Arrays;

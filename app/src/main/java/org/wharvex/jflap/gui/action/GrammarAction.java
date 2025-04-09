@@ -17,8 +17,8 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.ConvertedUnrestrictedGrammar;
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.ConvertedUnrestrictedGrammar;
+import org.wharvex.jflap.grammar.Grammar;
 
 import javax.swing.Icon;
 

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.sim.multiple;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.GrowableTableModel;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.Configuration;

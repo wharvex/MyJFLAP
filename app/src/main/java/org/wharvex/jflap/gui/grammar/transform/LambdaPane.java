@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.transform;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import org.wharvex.jflap.gui.*;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;

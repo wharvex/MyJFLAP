@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.Grammar;
-import grammar.parse.BruteParser;
-import grammar.parse.BruteParserEvent;
-import grammar.parse.BruteParserListener;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.parse.BruteParser;
+import org.wharvex.jflap.grammar.parse.BruteParserEvent;
+import org.wharvex.jflap.grammar.parse.BruteParserListener;
 import org.wharvex.jflap.automata.fsa.FSAStepByStateSimulator;
 import org.wharvex.jflap.automata.mealy.*;
 import org.wharvex.jflap.gui.JTableExtender;

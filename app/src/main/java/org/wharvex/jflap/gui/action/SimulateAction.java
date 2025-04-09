@@ -24,7 +24,7 @@ import org.wharvex.jflap.automata.NondeterminismDetector;
 import org.wharvex.jflap.automata.NondeterminismDetectorFactory;
 import org.wharvex.jflap.automata.SimulatorFactory;
 import org.wharvex.jflap.automata.State;
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.gui.InputBox;
 import org.wharvex.jflap.gui.editor.EditBlockPane;
 import org.wharvex.jflap.gui.environment.Environment;

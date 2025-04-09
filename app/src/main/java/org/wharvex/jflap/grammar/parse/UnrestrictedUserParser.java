@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.grammar.parse;
 
-import grammar.Grammar;
+import org.wharvex.jflap.grammar.Grammar;
 
 /**
  * UnrestrictedUser Parser that is going to be used for parsing performed by user.

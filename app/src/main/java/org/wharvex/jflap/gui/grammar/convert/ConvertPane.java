@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.grammar.convert;
 
 import org.wharvex.jflap.automata.Automaton;
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
 import org.wharvex.jflap.gui.editor.*;

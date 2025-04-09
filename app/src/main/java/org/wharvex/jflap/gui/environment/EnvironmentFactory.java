@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.environment;
 
-import grammar.ConvertedUnrestrictedGrammar;
-import grammar.Grammar;
-import grammar.lsystem.LSystem;
+import org.wharvex.jflap.grammar.ConvertedUnrestrictedGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.lsystem.LSystem;
 import org.wharvex.jflap.gui.editor.EditorPane;
 import org.wharvex.jflap.gui.editor.MealyToolBox;
 import org.wharvex.jflap.gui.editor.MooreToolBox;

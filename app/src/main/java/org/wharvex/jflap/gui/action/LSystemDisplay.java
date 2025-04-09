@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import grammar.lsystem.*;
+import org.wharvex.jflap.grammar.lsystem.*;
 import org.wharvex.jflap.gui.environment.LSystemEnvironment;
 import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 import org.wharvex.jflap.gui.lsystem.DisplayPane;

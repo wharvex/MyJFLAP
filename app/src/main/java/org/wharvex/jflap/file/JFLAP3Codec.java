@@ -18,9 +18,9 @@
 package org.wharvex.jflap.file;
 
 import org.wharvex.jflap.automata.*;
-import grammar.Grammar;
-import grammar.Production;
-import grammar.UnboundGrammar;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnboundGrammar;
 
 import java.io.*;
 import java.util.Map;

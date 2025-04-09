@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.transform;
 
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import org.wharvex.jflap.gui.grammar.GrammarTableModel;
 import java.awt.event.MouseEvent;
 import java.util.*;

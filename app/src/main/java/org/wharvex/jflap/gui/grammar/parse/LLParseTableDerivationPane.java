@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import grammar.Grammar;
-import grammar.parse.*;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.parse.*;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import org.wharvex.jflap.gui.grammar.GrammarTable;

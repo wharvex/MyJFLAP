@@ -21,8 +21,8 @@
 package org.wharvex.jflap.file.xml;
 
 import org.wharvex.jflap.file.ParseException;
-import grammar.*;
-import grammar.lsystem.*;
+import org.wharvex.jflap.grammar.*;
+import org.wharvex.jflap.grammar.lsystem.*;
 import java.util.*;
 import org.w3c.dom.*;
 

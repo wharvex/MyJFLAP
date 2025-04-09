@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.grammar.convert;
 
-import grammar.Grammar;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
 import org.wharvex.jflap.gui.event.SelectionEvent;
 import org.wharvex.jflap.gui.event.SelectionListener;
 import javax.swing.*;

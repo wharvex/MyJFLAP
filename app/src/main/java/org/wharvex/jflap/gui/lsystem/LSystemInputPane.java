@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.lsystem;
 
-import grammar.Production;
-import grammar.UnboundGrammar;
-import grammar.lsystem.*;
+import org.wharvex.jflap.grammar.Production;
+import org.wharvex.jflap.grammar.UnboundGrammar;
+import org.wharvex.jflap.grammar.lsystem.*;
 import org.wharvex.jflap.gui.HighlightTable;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
 import org.wharvex.jflap.gui.grammar.GrammarInputPane;

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.grammar;
 
-import grammar.cfg.ContextFreeGrammar;
+import org.wharvex.jflap.grammar.cfg.ContextFreeGrammar;
 
 import java.util.ArrayList;
 import java.util.Arrays;

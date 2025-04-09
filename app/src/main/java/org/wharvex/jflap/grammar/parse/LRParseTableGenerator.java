@@ -22,7 +22,7 @@ package org.wharvex.jflap.grammar.parse;
 
 import org.wharvex.jflap.automata.fsa.*;
 import org.wharvex.jflap.automata.*;
-import grammar.*;
+import org.wharvex.jflap.grammar.*;
 import java.util.*;
 
 /**

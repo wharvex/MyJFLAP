@@ -31,8 +31,8 @@ import java.util.Set;
 
 import javax.swing.tree.TreeNode;
 
-import grammar.Grammar;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
 
 /**
  * Similar to BruteParser abstract class, UserParser abstract class is created to deal with User Parsing

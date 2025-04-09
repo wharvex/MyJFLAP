@@ -19,8 +19,8 @@
 
 package org.wharvex.jflap.grammar;
 
-import grammar.Grammar;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.Production;
 
 import java.io.Serializable;
 

@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.grammar.cfg;
 
-import grammar.Grammar;
-import grammar.GrammarToAutomatonConverter;
-import grammar.Production;
+import org.wharvex.jflap.grammar.Grammar;
+import org.wharvex.jflap.grammar.GrammarToAutomatonConverter;
+import org.wharvex.jflap.grammar.Production;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.StatePlacer;
