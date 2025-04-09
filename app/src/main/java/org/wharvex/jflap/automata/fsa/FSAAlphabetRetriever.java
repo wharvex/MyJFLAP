@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.fsa;
 
-import automata.*;
+import org.wharvex.jflap.automata.*;
 import java.util.*;
 
 /**

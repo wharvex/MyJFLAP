@@ -37,14 +37,14 @@ import java.util.Set;
 
 import debug.EDebug;
 
-import automata.Automaton;
-import automata.Note;
-import automata.State;
-import automata.Transition;
-import automata.event.AutomataStateEvent;
-import automata.event.AutomataStateListener;
-import automata.event.AutomataTransitionEvent;
-import automata.event.AutomataTransitionListener;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Note;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.event.AutomataStateListener;
+import org.wharvex.jflap.automata.event.AutomataTransitionEvent;
+import org.wharvex.jflap.automata.event.AutomataTransitionListener;
 import java.util.HashSet;
 
 /**

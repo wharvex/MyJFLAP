@@ -26,9 +26,9 @@ import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
-import automata.UselessStatesDetector;
-import automata.fsa.FiniteStateAutomaton;
-import automata.graph.FSAEqualityChecker;
+import org.wharvex.jflap.automata.UselessStatesDetector;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.graph.FSAEqualityChecker;
 
 /**
  * This tests to see if two finite state automatons accept the same language.

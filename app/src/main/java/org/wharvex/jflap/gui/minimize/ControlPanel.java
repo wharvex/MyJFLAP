@@ -29,7 +29,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JToolBar;
 import javax.swing.tree.TreeNode;
 
-import automata.fsa.MinimizeTreeNode;
+import org.wharvex.jflap.automata.fsa.MinimizeTreeNode;
 
 /**
  * The <CODE>ControlPanel</CODE> contains buttons whose actions call methods

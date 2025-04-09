@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.*;
-import automata.mealy.MooreMachine;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import org.wharvex.jflap.gui.environment.*;
 import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
 

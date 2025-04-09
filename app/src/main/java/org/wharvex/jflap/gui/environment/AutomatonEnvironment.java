@@ -18,13 +18,13 @@
 package org.wharvex.jflap.gui.environment;
 
 import org.wharvex.jflap.gui.editor.UndoKeeper;
-import automata.Automaton;
-import automata.event.AutomataStateEvent;
-import automata.event.AutomataStateListener;
-import automata.event.AutomataTransitionEvent;
-import automata.event.AutomataTransitionListener;
-import automata.event.AutomataNoteEvent;
-import automata.event.AutomataNoteListener;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.event.AutomataStateListener;
+import org.wharvex.jflap.automata.event.AutomataTransitionEvent;
+import org.wharvex.jflap.automata.event.AutomataTransitionListener;
+import org.wharvex.jflap.automata.event.AutomataNoteEvent;
+import org.wharvex.jflap.automata.event.AutomataNoteListener;
 
 public class AutomatonEnvironment extends Environment {
   /**

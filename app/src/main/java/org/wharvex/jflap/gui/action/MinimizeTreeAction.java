@@ -26,9 +26,9 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JOptionPane;
 
-import automata.AutomatonChecker;
-import automata.fsa.FiniteStateAutomaton;
-import automata.fsa.Minimizer;
+import org.wharvex.jflap.automata.AutomatonChecker;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.Minimizer;
 
 /**
  * This action allows the user to manually minimize a DFA using a minimization

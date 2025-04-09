@@ -39,11 +39,11 @@ import javax.swing.JOptionPane;
 
 import regular.RegularExpression;
 
-import automata.State;
-import automata.Transition;
-import automata.fsa.FSAToRegularExpressionConverter;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSAToRegularExpressionConverter;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * Controller that is responsible for creating trap state and adding necessary transitions

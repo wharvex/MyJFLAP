@@ -26,13 +26,13 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.StringTokenizer;
 
-import automata.AlphabetRetriever;
-import automata.Automaton;
-import automata.AutomatonChecker;
-import automata.ClosureTaker;
-import automata.State;
-import automata.StatePlacer;
-import automata.Transition;
+import org.wharvex.jflap.automata.AlphabetRetriever;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonChecker;
+import org.wharvex.jflap.automata.ClosureTaker;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StatePlacer;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The NFA to DFA converter object can be used to convert a nondeterministic

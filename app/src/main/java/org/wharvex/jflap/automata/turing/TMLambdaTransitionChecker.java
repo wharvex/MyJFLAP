@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.turing;
 
-import automata.LambdaTransitionChecker;
-import automata.Transition;
+import org.wharvex.jflap.automata.LambdaTransitionChecker;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The tm lambda transition checker can be used to check if a one-tape Turing

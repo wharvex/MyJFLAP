@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 import java.io.Serializable;
 import java.awt.Point;
 

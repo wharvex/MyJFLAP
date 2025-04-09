@@ -30,7 +30,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.KeyStroke;
 
-import automata.Transition;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * A tool that handles the conversion of multiple transitions to one transition

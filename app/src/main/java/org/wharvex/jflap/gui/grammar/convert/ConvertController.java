@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.grammar.convert;
 
-import automata.Automaton;
-import automata.Transition;
-import automata.event.*;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.event.*;
 import grammar.*;
 import org.wharvex.jflap.gui.event.*;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;

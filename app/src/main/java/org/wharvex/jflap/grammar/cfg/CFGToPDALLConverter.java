@@ -23,11 +23,11 @@ package org.wharvex.jflap.grammar.cfg;
 import grammar.Grammar;
 import grammar.GrammarToAutomatonConverter;
 import grammar.Production;
-import automata.Automaton;
-import automata.State;
-import automata.StatePlacer;
-import automata.Transition;
-import automata.pda.PDATransition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StatePlacer;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.pda.PDATransition;
 
 /**
  * The CFG to PDA (LL parsing) converter can be used to convert a context free

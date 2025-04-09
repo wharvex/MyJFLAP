@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.viewer;
 
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 import java.awt.Rectangle;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;

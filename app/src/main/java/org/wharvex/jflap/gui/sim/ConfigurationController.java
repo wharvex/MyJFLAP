@@ -34,13 +34,13 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.JSplitPane;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration; import automata.State;
-import automata.turing.TMSimulator;
-import automata.turing.TMConfiguration;
-import automata.turing.TMState;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration; import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.turing.TMSimulator;
+import org.wharvex.jflap.automata.turing.TMConfiguration;
+import org.wharvex.jflap.automata.turing.TMState;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 
 /**

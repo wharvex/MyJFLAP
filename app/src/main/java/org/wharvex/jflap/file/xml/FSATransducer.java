@@ -26,11 +26,11 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This is the transducer for encoding and decoding

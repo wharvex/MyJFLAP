@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.minimize;
 
-import automata.fsa.MinimizeTreeNode;
+import org.wharvex.jflap.automata.fsa.MinimizeTreeNode;
 import javax.swing.tree.TreeNode;
 import org.wharvex.jflap.gui.tree.*;
 import java.awt.Color;
@@ -29,7 +29,7 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.Point2D;
 import java.util.Arrays;
 import java.util.HashMap;
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * The <CODE>MinimizeNodeDrawer</CODE> is used to draw <CODE>MinimizeTreeNode</CODE>

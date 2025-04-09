@@ -36,10 +36,10 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.BevelBorder;
 
-import automata.Automaton;
-import automata.Transition;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This action handles the conversion of an FSA to a regular grammar.

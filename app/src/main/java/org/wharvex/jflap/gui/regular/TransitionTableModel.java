@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.regular;
 
-import automata.Transition;
+import org.wharvex.jflap.automata.Transition;
 import javax.swing.table.AbstractTableModel;
 
 /**

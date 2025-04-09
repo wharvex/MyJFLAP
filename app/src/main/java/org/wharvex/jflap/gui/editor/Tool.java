@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.editor;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.gui.SuperMouseAdapter;
 import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
 import org.wharvex.jflap.gui.viewer.AutomatonPane;

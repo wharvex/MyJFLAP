@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import automata.NondeterminismDetector;
-import automata.Transition;
+import org.wharvex.jflap.automata.NondeterminismDetector;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The PDA nondeterminism detector object can be used to find all the

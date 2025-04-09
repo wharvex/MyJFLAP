@@ -40,7 +40,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This is the pane that holds the tools necessary for the conversion of a

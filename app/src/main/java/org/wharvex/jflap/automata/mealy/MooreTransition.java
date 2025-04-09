@@ -21,8 +21,8 @@
 package org.wharvex.jflap.automata.mealy;
 
 import org.wharvex.jflap.gui.environment.Universe;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * A <code>MooreTransition</code> is a special subclass of <code>

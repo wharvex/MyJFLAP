@@ -30,7 +30,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.KeyStroke;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A tool that handles the removal of states. This calls the {@link

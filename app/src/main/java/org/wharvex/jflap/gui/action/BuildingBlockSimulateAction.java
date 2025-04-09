@@ -37,11 +37,11 @@ import java.io.Serializable;
 import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
-import automata.turing.TMSimulator;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.turing.TMSimulator;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * @author Andrew

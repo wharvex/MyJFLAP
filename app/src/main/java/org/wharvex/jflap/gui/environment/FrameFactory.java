@@ -26,7 +26,7 @@ import java.awt.Dimension;
 import pumping.ContextFreePumpingLemma;
 import pumping.RegularPumpingLemma;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * The <CODE>FrameFactory</CODE> is a factory for creating environment frames.

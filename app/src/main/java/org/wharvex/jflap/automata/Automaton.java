@@ -46,14 +46,14 @@ import javax.swing.JTextArea;
 
 import debug.EDebug;
 
-import automata.event.AutomataStateEvent;
-import automata.event.AutomataStateListener;
-import automata.event.AutomataTransitionEvent;
-import automata.event.AutomataTransitionListener;
-import automata.event.AutomataNoteEvent;
-import automata.event.AutomataNoteListener;
-import automata.mealy.MooreMachine;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.event.AutomataStateListener;
+import org.wharvex.jflap.automata.event.AutomataTransitionEvent;
+import org.wharvex.jflap.automata.event.AutomataTransitionListener;
+import org.wharvex.jflap.automata.event.AutomataNoteEvent;
+import org.wharvex.jflap.automata.event.AutomataNoteListener;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 import org.wharvex.jflap.gui.viewer.AutomatonPane;
 

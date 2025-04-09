@@ -31,13 +31,13 @@ import org.w3c.dom.*;
 
 import file.DataException;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.mealy.MealyMachine;
-import automata.mealy.MealyTransition;
-import automata.mealy.MooreMachine;
-import automata.mealy.MooreTransition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.mealy.MealyTransition;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.mealy.MooreTransition;
 
 /**
  * This is the transducer for encoding and decoding {@link

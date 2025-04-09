@@ -35,12 +35,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.BevelBorder;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.pda.PDAToCFGConverter;
-import automata.pda.PDATransition;
-import automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.pda.PDAToCFGConverter;
+import org.wharvex.jflap.automata.pda.PDATransition;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
 
 /**
  * This action handles the conversion of an PDA to a context free grammar.

@@ -25,8 +25,8 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JOptionPane;
 
-import automata.AutomatonChecker;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.AutomatonChecker;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This is a simple action for showing the DFA form of an NFA.

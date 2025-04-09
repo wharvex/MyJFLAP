@@ -37,8 +37,8 @@ import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 import javax.swing.filechooser.FileFilter;
 
-import automata.Automaton;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * The <CODE>OpenAction</CODE> is an action to load a structure from a file,

@@ -22,7 +22,7 @@ package org.wharvex.jflap.automata.graph.layout;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
 
-import automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.Graph;
 
 /**
  * A <code>VertexChain</code> that also has the ability to layout its vertices in a circle or part of a circle.

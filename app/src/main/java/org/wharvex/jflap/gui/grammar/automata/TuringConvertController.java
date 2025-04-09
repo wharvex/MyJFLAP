@@ -34,12 +34,12 @@ import org.wharvex.jflap.gui.environment.GrammarEnvironment;
 import org.wharvex.jflap.gui.grammar.transform.UselessController;
 import org.wharvex.jflap.gui.grammar.transform.UselessPane;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
-import automata.State;
-import automata.Transition;
-import automata.pda.PDAToCFGConverter;
-import automata.turing.TMTransition;
-import automata.turing.TuringMachine;
-import automata.turing.TuringToGrammarConverter;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.pda.PDAToCFGConverter;
+import org.wharvex.jflap.automata.turing.TMTransition;
+import org.wharvex.jflap.automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TuringToGrammarConverter;
 
 
 /**

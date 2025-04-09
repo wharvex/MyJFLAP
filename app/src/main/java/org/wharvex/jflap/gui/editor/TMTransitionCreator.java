@@ -37,10 +37,10 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 
-import automata.State;
-import automata.Transition;
-import automata.turing.TMTransition;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.turing.TMTransition;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import debug.EDebug;
 
 /**

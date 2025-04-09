@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import automata.LambdaTransitionChecker;
-import automata.Transition;
+import org.wharvex.jflap.automata.LambdaTransitionChecker;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The pda lambda transition checker can be used to determine if a pushdown

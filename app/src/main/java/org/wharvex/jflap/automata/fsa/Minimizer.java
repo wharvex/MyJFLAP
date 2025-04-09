@@ -27,13 +27,13 @@ import java.util.Iterator;
 
 import javax.swing.tree.DefaultTreeModel;
 
-import automata.AlphabetRetriever;
-import automata.Automaton;
-import automata.AutomatonChecker;
-import automata.State;
-import automata.StatePlacer;
-import automata.Transition;
-import automata.UnreachableStatesDetector;
+import org.wharvex.jflap.automata.AlphabetRetriever;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonChecker;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StatePlacer;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.UnreachableStatesDetector;
 
 /**
  * The Minimizer object can be used to minimize a deterministic finite state

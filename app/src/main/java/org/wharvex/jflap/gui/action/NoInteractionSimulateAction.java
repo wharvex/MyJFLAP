@@ -28,9 +28,9 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
 
 /**
  * This is the action used for the simulation of input on an automaton with no

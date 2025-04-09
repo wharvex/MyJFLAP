@@ -25,10 +25,10 @@ import org.wharvex.jflap.gui.environment.Universe;
 import java.util.ArrayList;
 
 import regular.Discretizer;
-import automata.Automaton;
-import automata.State;
-import automata.StatePlacer;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StatePlacer;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The fsa to regular expression converter can be used to convert a finite state

@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.mealy;
 
-import automata.LambdaTransitionChecker;
-import automata.Transition;
+import org.wharvex.jflap.automata.LambdaTransitionChecker;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The <code>MealyLambdaTransitionChecker</code> can be used to determine 

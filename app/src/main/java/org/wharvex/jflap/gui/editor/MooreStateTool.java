@@ -28,8 +28,8 @@ import java.awt.event.MouseEvent;
 
 import javax.swing.JOptionPane;
 
-import automata.State;
-import automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
 
 /**
  * This is a special <code>StateTool</code> for Moore machines 

@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.viewer;
 
-import automata.event.AutomataStateEvent;
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.gui.viewer.StateDrawer;
 import java.util.Set;
 import java.util.HashSet;

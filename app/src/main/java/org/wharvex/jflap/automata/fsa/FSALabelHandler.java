@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.automata.fsa;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The FSA label handler is an object that can convert a finite state automaton

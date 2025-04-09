@@ -27,11 +27,11 @@ import grammar.ProductionChecker;
 
 import java.awt.Point;
 
-import automata.Automaton;
-import automata.State;
-import automata.StatePlacer;
-import automata.Transition;
-import automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StatePlacer;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSATransition;
 
 /**
  * The right linear grammar converter can be used to convert regular grammars,

@@ -21,8 +21,8 @@
 package org.wharvex.jflap.automata.graph;
 
 import java.util.*;
-import automata.*;
-import automata.fsa.*;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.*;
 
 /**
  * This is an object that checks if two deterministic finite state automatons

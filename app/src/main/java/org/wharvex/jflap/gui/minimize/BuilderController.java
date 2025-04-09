@@ -20,14 +20,14 @@
 
 package org.wharvex.jflap.gui.minimize;
 
-import automata.*;
-import automata.fsa.*;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.*;
 import javax.swing.*;
 import javax.swing.tree.DefaultTreeModel;
 import java.awt.Component;
 import java.util.*;
-import automata.event.AutomataTransitionListener;
-import automata.event.AutomataTransitionEvent;
+import org.wharvex.jflap.automata.event.AutomataTransitionListener;
+import org.wharvex.jflap.automata.event.AutomataTransitionEvent;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 

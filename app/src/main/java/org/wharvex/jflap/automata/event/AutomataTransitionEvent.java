@@ -21,8 +21,8 @@
 package org.wharvex.jflap.automata.event;
 
 import java.util.EventObject;
-import automata.Automaton;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * This event is given to listeners of an automaton interested in events when a

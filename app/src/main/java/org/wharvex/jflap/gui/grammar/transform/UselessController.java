@@ -20,14 +20,14 @@
 
 package org.wharvex.jflap.gui.grammar.transform;
 
-import automata.*;
-import automata.vdg.*;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.vdg.*;
 import grammar.*;
 
 import java.awt.event.MouseEvent;
 import java.util.*;
 import javax.swing.*;
-import automata.event.*;
+import org.wharvex.jflap.automata.event.*;
 
 /**
  * This is the controller for the useless panel. Bleh.

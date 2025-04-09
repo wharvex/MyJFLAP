@@ -36,10 +36,10 @@ import javax.swing.JOptionPane;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreeNode;
 
-import automata.State;
-import automata.fsa.FiniteStateAutomaton;
-import automata.fsa.MinimizeTreeNode;
-import automata.fsa.Minimizer;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.MinimizeTreeNode;
+import org.wharvex.jflap.automata.fsa.Minimizer;
 
 /**
  * The <CODE>MinimizeController</CODE> serves as an intermediary between the

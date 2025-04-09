@@ -32,8 +32,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.BevelBorder;
 
-import automata.Automaton;
-import automata.Note;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Note;
 
 /**
  * This is a view that holds a tool bar and the canvas where the automaton is

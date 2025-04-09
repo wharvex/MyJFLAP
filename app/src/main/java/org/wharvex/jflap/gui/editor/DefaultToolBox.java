@@ -25,7 +25,7 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import java.util.List;
 
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * The <CODE>DefaultToolBox</CODE> has all the tools for general editing of an

@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.automata.turing;
 
-import automata.Automaton;
-import automata.Transition;
-import automata.State;
-import automata.Note;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Note;
 import java.awt.Point;
 
 import java.util.HashMap;

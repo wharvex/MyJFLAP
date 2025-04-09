@@ -21,8 +21,8 @@
 package org.wharvex.jflap.gui.editor;
 
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
-import automata.Automaton;
-import automata.State;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
 
 /**
  * This is a view that holds a tool bar and the canvas where the automaton is

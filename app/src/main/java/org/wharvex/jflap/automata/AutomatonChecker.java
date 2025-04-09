@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata;
 
-import automata.fsa.*;
+import org.wharvex.jflap.automata.fsa.*;
 
 /**
  * The Automaton checker can be used to determine certain properties about

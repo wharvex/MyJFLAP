@@ -41,9 +41,9 @@ import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
 import regular.Discretizer;
-import automata.State;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This is the pane that holds the tools necessary for the conversion of a

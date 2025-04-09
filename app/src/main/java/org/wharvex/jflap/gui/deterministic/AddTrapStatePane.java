@@ -31,7 +31,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
 import org.wharvex.jflap.gui.editor.ToolBox;
 import org.wharvex.jflap.gui.environment.AutomatonEnvironment;

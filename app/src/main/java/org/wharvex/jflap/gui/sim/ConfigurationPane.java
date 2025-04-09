@@ -30,8 +30,8 @@ import java.util.Iterator;
 
 import javax.swing.JPanel;
 
-import automata.Automaton;
-import automata.Configuration;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Configuration;
 
 /**
  * The <CODE>ConfigurationPane</CODE> is the pane where the configurations are

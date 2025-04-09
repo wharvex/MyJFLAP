@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.viewer;
 
-import automata.Automaton;
-import automata.Note;
-import automata.State;
-import automata.event.*;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Note;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.event.*;
 import org.wharvex.jflap.gui.JMultiLineToolTip;
 import org.wharvex.jflap.gui.editor.EditorPane;
 

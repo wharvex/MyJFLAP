@@ -17,13 +17,13 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
-import automata.NondeterminismDetector;
-import automata.NondeterminismDetectorFactory;
-import automata.SimulatorFactory;
-import automata.State;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.NondeterminismDetector;
+import org.wharvex.jflap.automata.NondeterminismDetectorFactory;
+import org.wharvex.jflap.automata.SimulatorFactory;
+import org.wharvex.jflap.automata.State;
 import grammar.Grammar;
 import org.wharvex.jflap.gui.InputBox;
 import org.wharvex.jflap.gui.editor.EditBlockPane;
@@ -44,10 +44,10 @@ import java.awt.Component;
 import java.util.*;
 import java.io.*;
 
-import automata.graph.AutomatonDirectedGraph;
-import automata.mealy.MealyMachine;
-import automata.turing.TuringMachine;
-import automata.turing.TMSimulator;
+import org.wharvex.jflap.automata.graph.AutomatonDirectedGraph;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TMSimulator;
 
 /**
  * This is the action used for the stepwise simulation of data. This method can

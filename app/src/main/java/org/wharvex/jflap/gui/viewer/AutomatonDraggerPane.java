@@ -21,7 +21,7 @@
 package org.wharvex.jflap.gui.viewer;
 
 import org.wharvex.jflap.gui.editor.ArrowNontransitionTool;
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * This is the same as an automaton pane, except that it allows the user to drag

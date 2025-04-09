@@ -34,9 +34,9 @@ import java.awt.event.MouseEvent;
 import javax.swing.Icon;
 import javax.swing.KeyStroke;
 
-import automata.State;
-import automata.turing.TuringMachine;
-import automata.turing.TMState;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TMState;
 
 /**
  * @author Andrew

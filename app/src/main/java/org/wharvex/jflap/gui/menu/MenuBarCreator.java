@@ -37,9 +37,9 @@ import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
 import org.wharvex.jflap.gui.environment.EnvironmentFrame;
 import org.wharvex.jflap.gui.environment.Universe;
 import org.wharvex.jflap.gui.action.*;
-import automata.Automaton;
-import automata.graph.LayoutAlgorithmFactory;
-import automata.graph.layout.VertexMover;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithmFactory;
+import org.wharvex.jflap.automata.graph.layout.VertexMover;
 
 /**
  * The <CODE>MenuBarCreator</CODE> is a creator of the menu bars for the FLAP

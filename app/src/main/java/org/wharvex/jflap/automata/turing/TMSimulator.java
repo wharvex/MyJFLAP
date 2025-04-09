@@ -29,11 +29,11 @@ import java.util.Stack;
 import java.util.Comparator;
 import java.util.Arrays;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 import org.wharvex.jflap.gui.environment.Universe;
 
 import debug.EDebug;

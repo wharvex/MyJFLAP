@@ -46,10 +46,10 @@ import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 import javax.swing.filechooser.FileFilter;
 
-import automata.Automaton;
-import automata.fsa.FiniteStateAutomaton;
-import automata.pda.PushdownAutomaton;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * The <CODE>TestTuringAction</CODE> is an action to load a structure from a file,

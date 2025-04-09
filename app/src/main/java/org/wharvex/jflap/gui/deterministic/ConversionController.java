@@ -37,17 +37,17 @@ import java.util.StringTokenizer;
 
 import javax.swing.JOptionPane;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.event.AutomataStateEvent;
-import automata.event.AutomataStateListener;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
-import automata.fsa.NFAToDFA;
-import automata.graph.Graph;
-import automata.graph.LayoutAlgorithm;
-import automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.event.AutomataStateListener;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.NFAToDFA;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import debug.EDebug;
 
 /**

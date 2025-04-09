@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.file;
 
-import automata.*;
+import org.wharvex.jflap.automata.*;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.UnboundGrammar;

@@ -31,8 +31,8 @@ import java.awt.event.WindowEvent;
 import java.io.Serializable;
 import javax.swing.*;
 
-import automata.mealy.MealyMachine;
-import automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
 
 /**
  * The <CODE>NewAction</CODE> handles when the user decides to create some new

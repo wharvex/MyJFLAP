@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.gui.grammar.automata;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 import grammar.Grammar;
 import grammar.Production;
 import org.wharvex.jflap.gui.environment.FrameFactory;

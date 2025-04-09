@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.viewer;
 
-import automata.State;
-import automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Automaton;
 import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Color;

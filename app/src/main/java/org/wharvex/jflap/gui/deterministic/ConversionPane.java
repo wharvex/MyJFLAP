@@ -40,7 +40,7 @@ import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 import javax.swing.JToolBar;
 
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This is the pane where the user defines all that is needed for the conversion

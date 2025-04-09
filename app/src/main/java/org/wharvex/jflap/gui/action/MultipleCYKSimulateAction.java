@@ -56,9 +56,9 @@ import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 import org.wharvex.jflap.gui.grammar.GrammarInputPane;
 import org.wharvex.jflap.gui.grammar.parse.CYKParsePane;
 import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * Similiar code to MultipleSimulateAction.  Once again, did not want to mess up the original code.

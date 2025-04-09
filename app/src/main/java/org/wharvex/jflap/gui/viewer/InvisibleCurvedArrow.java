@@ -24,7 +24,7 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.Area;
-import automata.Transition;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * An invisible curved arrow is a curved arrow where the actual line and arrow

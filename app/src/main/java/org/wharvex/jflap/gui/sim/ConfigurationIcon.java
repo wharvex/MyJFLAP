@@ -29,8 +29,8 @@ import java.awt.Point;
 
 import javax.swing.Icon;
 
-import automata.Automaton;
-import automata.Configuration;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Configuration;
 
 /**
  * The <CODE>ConfigurationIcon</CODE> is a general sort of icon that can be

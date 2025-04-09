@@ -25,8 +25,8 @@ import java.util.Set;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-import automata.graph.Graph;
-import automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 
 /**
  * This class contains a few simple vertex movement options that do not individually need a 

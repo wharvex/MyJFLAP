@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.automata.graph;
 
-import automata.fsa.NFAToDFA;
-import automata.fsa.Minimizer;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.NFAToDFA;
+import org.wharvex.jflap.automata.fsa.Minimizer;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * This determines if two FSAs accept the same language.

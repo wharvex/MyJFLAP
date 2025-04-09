@@ -23,8 +23,8 @@ import org.wharvex.jflap.gui.grammar.automata.ConvertController;
 import org.wharvex.jflap.gui.grammar.automata.ConvertPane;
 import org.wharvex.jflap.gui.grammar.automata.TuringConvertController;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;
-import automata.Automaton;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * Class for converting Turing Machine to Unrestricted Grammar

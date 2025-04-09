@@ -20,11 +20,11 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import automata.*;
-import automata.graph.*;
-import automata.graph.layout.GEMLayoutAlgorithm;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.graph.*;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 import grammar.*;
 import grammar.parse.*;
 import org.wharvex.jflap.gui.editor.EditorPane;

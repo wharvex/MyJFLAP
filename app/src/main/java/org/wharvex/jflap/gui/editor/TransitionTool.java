@@ -32,7 +32,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.Icon;
 import javax.swing.KeyStroke;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A tool that handles the creation of transitions.

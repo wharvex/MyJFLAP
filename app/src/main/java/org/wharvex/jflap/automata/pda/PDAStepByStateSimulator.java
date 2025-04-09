@@ -27,11 +27,11 @@ import javax.swing.JOptionPane;
 
 import debug.EDebug;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The PDA simulator object simulates the behavior of a pushdown automaton.

@@ -27,7 +27,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import automata.fsa.FSAToRegularExpressionConverter;
+import org.wharvex.jflap.automata.fsa.FSAToRegularExpressionConverter;
 
 /**
  * This action handles the conversion of an FSA to a regular expression.

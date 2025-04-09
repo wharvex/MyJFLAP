@@ -21,8 +21,8 @@ import grammar.Grammar;
 import grammar.parse.BruteParser;
 import grammar.parse.BruteParserEvent;
 import grammar.parse.BruteParserListener;
-import automata.fsa.FSAStepByStateSimulator;
-import automata.mealy.*;
+import org.wharvex.jflap.automata.fsa.FSAStepByStateSimulator;
+import org.wharvex.jflap.automata.mealy.*;
 import org.wharvex.jflap.gui.JTableExtender;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
@@ -84,15 +84,15 @@ import javax.swing.tree.TreeNode;
 
 import com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
-import automata.NondeterminismDetector;
-import automata.NondeterminismDetectorFactory;
-import automata.SimulatorFactory;
-import automata.State;
-import automata.turing.TMSimulator;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.NondeterminismDetector;
+import org.wharvex.jflap.automata.NondeterminismDetectorFactory;
+import org.wharvex.jflap.automata.SimulatorFactory;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.turing.TMSimulator;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * This is the action used for the simulation of multiple inputs on an automaton

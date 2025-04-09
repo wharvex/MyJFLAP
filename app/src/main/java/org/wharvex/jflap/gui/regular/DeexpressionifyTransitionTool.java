@@ -30,8 +30,8 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.KeyStroke;
 
-import automata.Transition;
-import automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSATransition;
 
 /**
  * A tool that handles the conversion of multiple transitions to one transition

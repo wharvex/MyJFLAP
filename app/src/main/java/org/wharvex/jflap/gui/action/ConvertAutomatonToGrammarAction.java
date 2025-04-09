@@ -32,7 +32,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.JOptionPane;
 import javax.swing.JToolBar;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * This class exists as the base class for the conversion of an automaton to a

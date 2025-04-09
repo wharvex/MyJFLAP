@@ -21,8 +21,8 @@ package org.wharvex.jflap.automata.graph;
 
 import java.awt.Dimension;
 import java.util.Random;
-import automata.Automaton;
-import automata.graph.layout.*;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.graph.layout.*;
 
 /**
  * This class allows the user to fetch a new <code>LayoutAlgorithm</code>, either a random one or a 

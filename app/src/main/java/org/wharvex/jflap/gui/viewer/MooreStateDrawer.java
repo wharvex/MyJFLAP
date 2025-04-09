@@ -24,10 +24,10 @@ import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.geom.Rectangle2D;
 
-import automata.Automaton;
-import automata.State;
-import automata.event.AutomataStateEvent;
-import automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
 
 /**
  * This is a special subclass of a <code>StateDrawer</code> that 

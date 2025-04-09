@@ -29,12 +29,12 @@ import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.Universe;
 import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 import org.wharvex.jflap.gui.minimize.MinimizePane;
-import automata.Automaton;
-import automata.AutomatonChecker;
-import automata.State;
-import automata.Transition;
-import automata.fsa.FiniteStateAutomaton;
-import automata.fsa.Minimizer;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonChecker;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.Minimizer;
 
 /**
  * Add a trap state to existing DFA or NFA

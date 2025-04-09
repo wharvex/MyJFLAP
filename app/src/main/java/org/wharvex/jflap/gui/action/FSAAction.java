@@ -19,7 +19,7 @@ package org.wharvex.jflap.gui.action;
 
 import javax.swing.Icon;
 
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 
 /**
  * The <CODE>FSAAction</CODE> is the general action that various controllers

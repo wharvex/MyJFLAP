@@ -30,8 +30,8 @@ import javax.swing.KeyStroke;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import automata.Automaton;
-import automata.State;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
 
 /**
  * The <CODE>CloseAction</CODE> is an action for removing tabs in an

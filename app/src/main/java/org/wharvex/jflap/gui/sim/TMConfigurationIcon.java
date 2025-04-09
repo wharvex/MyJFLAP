@@ -24,9 +24,9 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import automata.Configuration;
-import automata.turing.TMConfiguration;
-import automata.turing.Tape;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.turing.TMConfiguration;
+import org.wharvex.jflap.automata.turing.Tape;
 
 /**
  * This is a configuration icon for configurations related to finite state

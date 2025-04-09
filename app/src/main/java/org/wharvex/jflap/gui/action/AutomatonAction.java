@@ -19,7 +19,7 @@ package org.wharvex.jflap.gui.action;
 
 import javax.swing.Icon;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * The <CODE>AutomatonAction</CODE> is the general action that various

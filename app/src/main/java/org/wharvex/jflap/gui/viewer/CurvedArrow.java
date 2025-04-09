@@ -28,7 +28,7 @@ import java.awt.RenderingHints;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
 
-import automata.Transition;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * This is a simple class for storing and drawing a curved line with possible

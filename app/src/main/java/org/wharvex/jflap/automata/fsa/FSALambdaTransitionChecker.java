@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.fsa;
 
-import automata.LambdaTransitionChecker;
-import automata.Transition;
+import org.wharvex.jflap.automata.LambdaTransitionChecker;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The fsa lambda transition checker can be used to determine if a finite state

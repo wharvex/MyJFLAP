@@ -17,9 +17,9 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.graph.*;
-import automata.graph.layout.GEMLayoutAlgorithm;
-import automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.graph.*;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.cfg.CFGToPDALRConverter;

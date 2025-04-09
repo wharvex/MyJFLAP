@@ -29,8 +29,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import automata.graph.Graph;
-import automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 
 /**
  * Implements the GEM algorithm, by Arne Frick, Andreas Ludwig, and Heiko

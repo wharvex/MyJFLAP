@@ -27,7 +27,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.Icon;
 import javax.swing.KeyStroke;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 /**
  * The Block Transition tool works the same way as a normal transition, except it is between
  * two blocks.

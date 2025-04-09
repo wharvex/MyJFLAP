@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.automata.graph;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 import java.awt.Point;
 import java.awt.geom.Point2D;
 

@@ -32,7 +32,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import automata.Note;
+import org.wharvex.jflap.automata.Note;
 
 /**
 * @author Henry Qin and Jonathan Su

@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.automata;
 
-import automata.fsa.FSANondeterminismDetector;
-import automata.pda.PDANondeterminismDetector;
-import automata.turing.TMNondeterminismDetector;
+import org.wharvex.jflap.automata.fsa.FSANondeterminismDetector;
+import org.wharvex.jflap.automata.pda.PDANondeterminismDetector;
+import org.wharvex.jflap.automata.turing.TMNondeterminismDetector;
 
 /**
  * The <CODE>NondeterminismDetectorFactory</CODE> is a factory class for

@@ -22,8 +22,8 @@ package org.wharvex.jflap.gui.sim;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import automata.Configuration;
-import automata.mealy.MealyConfiguration;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.mealy.MealyConfiguration;
 
 /**
  * 

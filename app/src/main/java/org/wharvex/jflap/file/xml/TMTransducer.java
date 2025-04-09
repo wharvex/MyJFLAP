@@ -30,11 +30,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.turing.TMTransition;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.turing.TMTransition;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import file.DataException;
 
 /**

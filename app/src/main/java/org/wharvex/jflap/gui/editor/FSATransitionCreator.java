@@ -27,9 +27,9 @@ import javax.swing.table.TableModel;
 
 import debug.EDebug;
 
-import automata.State;
-import automata.Transition;
-import automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSATransition;
 
 /**
  * This is a transition creator for finite state automata.

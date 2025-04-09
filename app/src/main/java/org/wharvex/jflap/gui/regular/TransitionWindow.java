@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.regular;
 
-import automata.Transition;
+import org.wharvex.jflap.automata.Transition;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import javax.swing.*;

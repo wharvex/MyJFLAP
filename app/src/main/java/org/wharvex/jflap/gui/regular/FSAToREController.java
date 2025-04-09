@@ -20,11 +20,11 @@
 
 package org.wharvex.jflap.gui.regular;
 
-import automata.State;
-import automata.Transition;
-import automata.fsa.FSAToRegularExpressionConverter;
-import automata.fsa.FSATransition;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSAToRegularExpressionConverter;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 import org.wharvex.jflap.gui.environment.*;
 import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import org.wharvex.jflap.gui.viewer.SelectionDrawer;

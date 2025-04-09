@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.vdg;
 
-import automata.Transition;
-import automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A <CODE>VDGTransition</CODE> is a <CODE>Transition</CODE> object used by

@@ -25,11 +25,11 @@ import grammar.cfg.ContextFreeGrammar;
 import java.awt.Point;
 import java.util.ArrayList;
 
-import automata.State;
-import automata.Transition;
-import automata.UnreachableStatesDetector;
-import automata.vdg.VDGTransition;
-import automata.vdg.VariableDependencyGraph;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.UnreachableStatesDetector;
+import org.wharvex.jflap.automata.vdg.VDGTransition;
+import org.wharvex.jflap.automata.vdg.VariableDependencyGraph;
 
 /**
  * The Unit Production remover can be used to convert a grammar to an equivalent

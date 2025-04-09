@@ -25,9 +25,9 @@ import javax.swing.ImageIcon;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import automata.Automaton;
-import automata.State;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 import org.wharvex.jflap.gui.editor.EditBlockPane;
 import org.wharvex.jflap.gui.editor.EditorPane;

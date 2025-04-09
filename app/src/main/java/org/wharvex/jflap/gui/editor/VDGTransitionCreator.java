@@ -21,9 +21,9 @@
 package org.wharvex.jflap.gui.editor;
 
 import org.wharvex.jflap.gui.viewer.AutomatonPane;
-import automata.State;
-import automata.Transition;
-import automata.vdg.VDGTransition;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.vdg.VDGTransition;
 
 /**
  * This is a transition creator for variable dependency graphs.

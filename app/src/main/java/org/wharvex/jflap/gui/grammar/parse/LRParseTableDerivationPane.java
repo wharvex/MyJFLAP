@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 import grammar.Grammar;
 import grammar.parse.*;
 import org.wharvex.jflap.gui.SplitPaneFactory;

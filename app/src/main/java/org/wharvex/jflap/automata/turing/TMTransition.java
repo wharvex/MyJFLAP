@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.turing;
 
-import automata.Transition;
-import automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.State;
 import java.util.*;
 
 /**

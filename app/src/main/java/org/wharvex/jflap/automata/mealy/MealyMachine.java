@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.mealy;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * This subclass of <code>Automaton</code> is specifically for

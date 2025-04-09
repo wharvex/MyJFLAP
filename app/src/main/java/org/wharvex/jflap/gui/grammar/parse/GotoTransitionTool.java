@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.parse;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.gui.editor.TransitionTool;
 import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
 import org.wharvex.jflap.gui.viewer.AutomatonPane;

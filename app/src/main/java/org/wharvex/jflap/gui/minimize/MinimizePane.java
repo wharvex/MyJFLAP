@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.minimize;
 
-import automata.*;
-import automata.fsa.*;
-import automata.graph.*;
-import automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.*;
+import org.wharvex.jflap.automata.graph.*;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.editor.*;
 import org.wharvex.jflap.gui.environment.Environment;

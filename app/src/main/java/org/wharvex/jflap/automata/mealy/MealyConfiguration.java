@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.automata.mealy;
 
-import automata.Configuration;
-import automata.State;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A <code>MealyConfiguration</code> object is a <code>Configuration</code>

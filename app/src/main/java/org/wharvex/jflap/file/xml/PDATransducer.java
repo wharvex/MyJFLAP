@@ -26,11 +26,11 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
-import automata.pda.PDATransition;
-import automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.pda.PDATransition;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
 import file.DataException;
 
 /**

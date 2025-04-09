@@ -30,9 +30,9 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Stack;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The PDA to context free grammar converter can be used to convert a pushdown

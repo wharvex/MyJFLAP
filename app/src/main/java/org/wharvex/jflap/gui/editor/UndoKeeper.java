@@ -25,8 +25,8 @@ import org.wharvex.jflap.gui.environment.Profile;
 import java.util.Deque;
 import java.util.LinkedList;
 
-import automata.Automaton;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import debug.EDebug;
 
 /**

@@ -32,17 +32,17 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import automata.Automaton;
-import automata.Note;
-import automata.State;
-import automata.Transition;
-import automata.graph.AutomatonGraph;
-import automata.graph.LayoutAlgorithm;
-import automata.graph.layout.GEMLayoutAlgorithm;
-import automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Note;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.graph.AutomatonGraph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
 import file.DataException;
-import automata.turing.TMState;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TMState;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import debug.EDebug;
 
 import java.awt.Point;

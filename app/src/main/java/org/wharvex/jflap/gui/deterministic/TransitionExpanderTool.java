@@ -29,7 +29,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * This is a specialized transition tool that handles the expansion of a group

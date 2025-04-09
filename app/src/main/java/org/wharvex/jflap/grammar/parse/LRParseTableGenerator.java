@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.grammar.parse;
 
-import automata.fsa.*;
-import automata.*;
+import org.wharvex.jflap.automata.fsa.*;
+import org.wharvex.jflap.automata.*;
 import grammar.*;
 import java.util.*;
 

@@ -30,7 +30,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.KeyStroke;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * This is a tool that expands a state completely.

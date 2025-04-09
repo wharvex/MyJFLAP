@@ -32,9 +32,9 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The FSA to regular grammar converter can be used to convert a finite state

@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import automata.Configuration;
+import org.wharvex.jflap.automata.Configuration;
 import java.awt.BorderLayout;
 import java.awt.Color;
 

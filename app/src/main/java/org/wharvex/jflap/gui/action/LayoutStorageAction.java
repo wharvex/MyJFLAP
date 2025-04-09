@@ -21,8 +21,8 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JOptionPane;
 
-import automata.Automaton;
-import automata.graph.AutomatonGraph;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.graph.AutomatonGraph;
 
 /**
  * Action that allows for the current automaton layout to be saved and possibly restored later.

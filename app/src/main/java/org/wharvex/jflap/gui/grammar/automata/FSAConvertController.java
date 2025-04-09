@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.grammar.automata;
 
-import automata.State;
-import automata.Transition;
-import automata.fsa.FSAToRegularGrammarConverter;
-import automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSAToRegularGrammarConverter;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.reg.RegularGrammar;

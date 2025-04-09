@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.*;
+import org.wharvex.jflap.automata.*;
 import org.wharvex.jflap.gui.editor.ArrowDisplayOnlyTool;
 import org.wharvex.jflap.gui.environment.Environment;
 import org.wharvex.jflap.gui.environment.Universe;

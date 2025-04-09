@@ -23,8 +23,8 @@ package org.wharvex.jflap.gui.sim;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import automata.Configuration;
-import automata.fsa.FSAConfiguration;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.fsa.FSAConfiguration;
 
 /**
  * This is a configuration icon for configurations related to finite state

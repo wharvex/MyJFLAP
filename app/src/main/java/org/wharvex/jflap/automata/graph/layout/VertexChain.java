@@ -21,7 +21,7 @@ package org.wharvex.jflap.automata.graph.layout;
 
 import java.util.ArrayList;
 
-import automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.Graph;
 
 /**
  * Class that orders vertices assigned to it one-dimensionally.  The order of the vertices is changed as vertices

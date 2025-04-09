@@ -17,10 +17,10 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.*;
-import automata.fsa.FiniteStateAutomaton;
-import automata.graph.*;
-import automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.graph.*;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
 import grammar.Production;
 import grammar.reg.RightLinearGrammar;
 import grammar.reg.RightLinearGrammarToFSAConverter;

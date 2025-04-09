@@ -22,7 +22,7 @@ package org.wharvex.jflap.automata.fsa;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * The Minimize Tree Node object is merely a default mutable tree node with an

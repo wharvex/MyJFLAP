@@ -48,19 +48,19 @@ import javax.swing.JPopupMenu;
 import javax.swing.KeyStroke;
 import javax.swing.SingleSelectionModel;
 
-import automata.Automaton;
-import automata.Note;
-import automata.State;
-import automata.StateRenamer;
-import automata.Transition;
-import automata.fsa.FSALabelHandler;
-import automata.fsa.FSATransition;
-import automata.graph.AutomatonGraph;
-import automata.graph.LayoutAlgorithm;
-import automata.graph.layout.GEMLayoutAlgorithm;
-import automata.turing.TMTransition;
-import automata.turing.TMState;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Note;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.StateRenamer;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.fsa.FSALabelHandler;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.graph.AutomatonGraph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.layout.GEMLayoutAlgorithm;
+import org.wharvex.jflap.automata.turing.TMTransition;
+import org.wharvex.jflap.automata.turing.TMState;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import debug.EDebug;
 
 /**

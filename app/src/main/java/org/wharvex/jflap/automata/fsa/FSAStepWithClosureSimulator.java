@@ -25,11 +25,11 @@ import java.util.HashSet;
 
 import debug.EDebug;
 
-import automata.Automaton;
-import automata.ClosureTaker;
-import automata.Configuration;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.ClosureTaker;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * The FSA step with closure simulator object simulates the behavior of a finite

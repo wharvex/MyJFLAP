@@ -40,9 +40,9 @@ import pumping.PumpingLemma;
 import pumping.RegularPumpingLemma;
 
 import regular.RegularExpression;
-import automata.Automaton;
-import automata.mealy.MealyMachine;
-import automata.mealy.MooreMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.mealy.MooreMachine;
 
 /**
  * The <CODE>EnvironmentFactory</CODE> creates environments for some

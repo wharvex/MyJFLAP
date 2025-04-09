@@ -22,7 +22,7 @@ package org.wharvex.jflap.automata.turing;
 
 import java.util.Stack;
 
-import automata.*;
+import org.wharvex.jflap.automata.*;
 
 /**
  * A <CODE>TMConfiguration</CODE> object is a <CODE>Configuration</CODE>

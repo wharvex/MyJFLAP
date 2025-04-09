@@ -26,9 +26,9 @@ import java.util.Set;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
 
-import automata.graph.Graph;
-import automata.graph.AutomatonDirectedGraph;
-import automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.AutomatonDirectedGraph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 
 /**
  * This algorithm will lay out the graph in a tree.

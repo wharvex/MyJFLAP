@@ -27,8 +27,8 @@ import java.util.Set;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
 
-import automata.graph.Graph;
-import automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 
 /**
  * This algorithm assigns all vertices to random points in the graph, while applying a

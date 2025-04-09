@@ -21,8 +21,8 @@
 package org.wharvex.jflap.automata.pda;
 
 import org.wharvex.jflap.gui.environment.Universe;
-import automata.Transition;
-import automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A <CODE>PDATransition</CODE> is a <CODE>Transition</CODE> object with

@@ -35,9 +35,9 @@ import javax.swing.JSplitPane;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.Configuration;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.Configuration;
 
 /**
  * The <CODE>SimulatorPane</CODE> is the main view for the GUI front end for

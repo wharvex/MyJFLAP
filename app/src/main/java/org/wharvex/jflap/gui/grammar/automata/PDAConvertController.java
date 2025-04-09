@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.grammar.automata;
 
-import automata.State;
-import automata.Transition;
-import automata.pda.PDAToCFGConverter;
-import automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.pda.PDAToCFGConverter;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
 import grammar.Grammar;
 import grammar.Production;
 import grammar.cfg.ContextFreeGrammar;

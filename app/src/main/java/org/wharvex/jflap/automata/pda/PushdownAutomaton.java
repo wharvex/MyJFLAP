@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * This subclass of <CODE>Automaton</CODE> is specifically for a definition of

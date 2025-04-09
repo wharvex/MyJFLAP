@@ -20,11 +20,11 @@ package org.wharvex.jflap.gui.action;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 
-import automata.turing.TuringMachine;
-import automata.pda.PushdownAutomaton;
-import automata.mealy.MealyMachine;
-import automata.Automaton;
-import automata.graph.*;
+import org.wharvex.jflap.automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.graph.*;
 import org.wharvex.jflap.gui.environment.Environment;
 
 /**

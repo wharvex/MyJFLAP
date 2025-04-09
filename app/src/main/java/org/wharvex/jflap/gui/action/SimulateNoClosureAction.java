@@ -25,10 +25,10 @@ import java.io.Serializable;
 
 import javax.swing.KeyStroke;
 
-import automata.Automaton;
-import automata.AutomatonSimulator;
-import automata.fsa.FiniteStateAutomaton;
-import automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.AutomatonSimulator;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
 
 /**
  * This is the action used for the stepwise simulation of data without closure,

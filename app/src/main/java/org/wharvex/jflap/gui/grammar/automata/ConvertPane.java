@@ -20,7 +20,7 @@
 
 package org.wharvex.jflap.gui.grammar.automata;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.gui.SplitPaneFactory;
 import org.wharvex.jflap.gui.TableTextSizeSlider;
 import org.wharvex.jflap.gui.editor.ArrowDisplayOnlyTool;

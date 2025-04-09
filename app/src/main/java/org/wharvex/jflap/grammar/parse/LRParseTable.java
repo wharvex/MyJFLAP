@@ -21,7 +21,7 @@
 package org.wharvex.jflap.grammar.parse;
 
 import grammar.*;
-import automata.fsa.*;
+import org.wharvex.jflap.automata.fsa.*;
 import java.util.*;
 import java.io.Serializable;
 import javax.swing.table.AbstractTableModel;

@@ -21,7 +21,7 @@
 package org.wharvex.jflap.automata.mealy;
 
 import java.util.*;
-import automata.*;
+import org.wharvex.jflap.automata.*;
 
 /**
  * The Mealy machine step by state simulator simulates the behavior

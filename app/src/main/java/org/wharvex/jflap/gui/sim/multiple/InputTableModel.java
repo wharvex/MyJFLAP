@@ -22,10 +22,10 @@ package org.wharvex.jflap.gui.sim.multiple;
 
 import grammar.Grammar;
 import org.wharvex.jflap.gui.GrowableTableModel;
-import automata.Automaton;
-import automata.Configuration;
-import automata.turing.Tape;
-import automata.turing.TMConfiguration;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.turing.Tape;
+import org.wharvex.jflap.automata.turing.TMConfiguration;
 import javax.swing.event.TableModelListener;
 import javax.swing.event.TableModelEvent;
 
@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * The <CODE>InputTableModel</CODE> is a table specifically used for the input

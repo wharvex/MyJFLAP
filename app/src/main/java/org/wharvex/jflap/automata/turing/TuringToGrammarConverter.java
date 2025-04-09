@@ -24,9 +24,9 @@ import grammar.Production;
 import java.util.ArrayList;
 import java.util.*;
 
-import automata.Automaton;
-import automata.State;
-import automata.Transition;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
 
 /**
  * Converter for turing to unrestricted grammar

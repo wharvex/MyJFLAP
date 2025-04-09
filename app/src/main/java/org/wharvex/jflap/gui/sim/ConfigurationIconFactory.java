@@ -20,10 +20,10 @@
 
 package org.wharvex.jflap.gui.sim;
 
-import automata.Configuration;
-import automata.fsa.FSAConfiguration;
-import automata.pda.PDAConfiguration;
-import automata.turing.TMConfiguration;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.fsa.FSAConfiguration;
+import org.wharvex.jflap.automata.pda.PDAConfiguration;
+import org.wharvex.jflap.automata.turing.TMConfiguration;
 
 /**
  * This is a configuration icon factory. Given a configuration, it returns the

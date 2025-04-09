@@ -24,7 +24,7 @@ import org.wharvex.jflap.gui.environment.Universe;
 
 import java.util.*;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A <code>MooreMachine</code> is a special subclass of a

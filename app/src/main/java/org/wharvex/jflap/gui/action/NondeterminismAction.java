@@ -29,10 +29,10 @@ import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import automata.Automaton;
-import automata.NondeterminismDetector;
-import automata.NondeterminismDetectorFactory;
-import automata.State;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.NondeterminismDetector;
+import org.wharvex.jflap.automata.NondeterminismDetectorFactory;
+import org.wharvex.jflap.automata.State;
 
 /**
  * This is the action used to highlight nondeterministic states.

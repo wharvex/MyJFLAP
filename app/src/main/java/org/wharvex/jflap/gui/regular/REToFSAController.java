@@ -20,8 +20,8 @@
 
 package org.wharvex.jflap.gui.regular;
 
-import automata.*;
-import automata.fsa.*;
+import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.*;
 import org.wharvex.jflap.gui.environment.FrameFactory;
 import org.wharvex.jflap.gui.environment.Universe;
 

@@ -25,9 +25,9 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
 
-import automata.State;
-import automata.Transition;
-import automata.mealy.*;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.mealy.*;
 
 /**
  * This is a transition creator for Moore machines.

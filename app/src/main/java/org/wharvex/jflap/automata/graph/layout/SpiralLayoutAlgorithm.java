@@ -26,8 +26,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Set;
 
-import automata.graph.Graph;
-import automata.graph.LayoutAlgorithm;
+import org.wharvex.jflap.automata.graph.Graph;
+import org.wharvex.jflap.automata.graph.LayoutAlgorithm;
 
 /**
  * This algorithm places all vertices of the graph in a spiral, while applying a little 

@@ -30,11 +30,11 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-import automata.State;
-import automata.Transition;
-import automata.UnreachableStatesDetector;
-import automata.vdg.VDGTransition;
-import automata.vdg.VariableDependencyGraph;
+import org.wharvex.jflap.automata.State;
+import org.wharvex.jflap.automata.Transition;
+import org.wharvex.jflap.automata.UnreachableStatesDetector;
+import org.wharvex.jflap.automata.vdg.VDGTransition;
+import org.wharvex.jflap.automata.vdg.VariableDependencyGraph;
 
 /**
  * As it stands now, the code in here is almost completely useless. Through

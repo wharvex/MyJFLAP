@@ -25,7 +25,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JToggleButton;
-import automata.Configuration;
+import org.wharvex.jflap.automata.Configuration;
 
 /**
  * This is a toggle button that displays a configuration inside of it.

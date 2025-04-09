@@ -17,7 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.gui.JTableExtender;
 import org.wharvex.jflap.gui.environment.Environment;
 
@@ -28,7 +28,7 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
 import org.wharvex.jflap.gui.sim.multiple.InputTableModel;
-import automata.turing.TuringMachine;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * This is the action used for the simulation of multiple inputs on an automaton

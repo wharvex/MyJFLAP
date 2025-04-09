@@ -19,7 +19,7 @@
 
 package org.wharvex.jflap.automata.graph;
 
-import automata.Automaton;
+import org.wharvex.jflap.automata.Automaton;
 
 /**
  * Constructs a graph of an automaton, but does not, for each edge, classify

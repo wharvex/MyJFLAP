@@ -26,7 +26,7 @@ import org.wharvex.jflap.gui.viewer.AutomatonPane;
 
 import java.awt.event.MouseEvent;
 
-import automata.State;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A tool that handles the creation of transitions for the FSA to regular

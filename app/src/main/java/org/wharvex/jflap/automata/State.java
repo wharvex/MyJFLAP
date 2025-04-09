@@ -27,7 +27,7 @@ import java.util.StringTokenizer;
 
 import debug.EDebug;
 
-import automata.event.AutomataStateEvent;
+import org.wharvex.jflap.automata.event.AutomataStateEvent;
 
 /**
  * This class represents a single state in an automaton. This class is intended

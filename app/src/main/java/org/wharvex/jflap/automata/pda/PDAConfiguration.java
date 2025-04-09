@@ -20,9 +20,9 @@
 
 package org.wharvex.jflap.automata.pda;
 
-import automata.Automaton;
-import automata.Configuration;
-import automata.State;
+import org.wharvex.jflap.automata.Automaton;
+import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.automata.State;
 
 /**
  * A <CODE>PSAConfiguration</CODE> object is a <CODE>Configuration</CODE>
