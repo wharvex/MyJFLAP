@@ -1,7 +1,7 @@
 /*
  *  JFLAP - Formal Languages and Automata Package
- * 
- * 
+ *
+ *
  *  Susan H. Rodger
  *  Computer Science Department
  *  Duke University
@@ -15,39 +15,45 @@
  */
 
 
-
-
-
 package org.wharvex.jflap.automata;
+
+import org.wharvex.jflap.automata.fsa.FSALambdaTransitionChecker;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.mealy.MealyLambdaTransitionChecker;
+import org.wharvex.jflap.automata.mealy.MealyMachine;
+import org.wharvex.jflap.automata.pda.PDALambdaTransitionChecker;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.turing.TMLambdaTransitionChecker;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 
 /**
  * This lambda checker factory returns a lambda transition checker for the type
  * of automaton passed in.
- * 
+ *
  * @author Ryan Cavalcante
  */
 
 public class LambdaCheckerFactory {
-	/**
-	 * Returns the lambda transition checker for the type of automaton that
-	 * <CODE>automaton</CODE> is.
-	 * 
-	 * @param automaton
-	 *            the automaton to get the checker for
-	 * @return the lambda transition checker for the type of automaton that
-	 *         <CODE>automaton</CODE> is or <CODE>null</CODE> if there is no
-	 *         lambda transition checker for this type of automaton
-	 */
-	public static LambdaTransitionChecker getLambdaChecker(Automaton automaton) {
-		if (automaton instanceof automata.fsa.FiniteStateAutomaton)
-			return new automata.fsa.FSALambdaTransitionChecker();
-		else if (automaton instanceof automata.pda.PushdownAutomaton)
-			return new automata.pda.PDALambdaTransitionChecker();
-		else if (automaton instanceof automata.turing.TuringMachine)
-			return new automata.turing.TMLambdaTransitionChecker();
-        else if(automaton instanceof automata.mealy.MealyMachine)
-            return new automata.mealy.MealyLambdaTransitionChecker();
-		return null;
-	}
+  /**
+   * Returns the lambda transition checker for the type of automaton that
+   * <CODE>automaton</CODE> is.
+   *
+   * @param automaton the automaton to get the checker for
+   * @return the lambda transition checker for the type of automaton that
+   * <CODE>automaton</CODE> is or <CODE>null</CODE> if there is no
+   * lambda transition checker for this type of automaton
+   */
+  public static LambdaTransitionChecker getLambdaChecker(
+      Automaton automaton) {
+    if (automaton instanceof FiniteStateAutomaton)
+      return new FSALambdaTransitionChecker();
+    else if (automaton instanceof PushdownAutomaton)
+      return new PDALambdaTransitionChecker();
+    else if (automaton instanceof TuringMachine)
+      return new TMLambdaTransitionChecker();
+    else if (automaton instanceof MealyMachine)
+      return new MealyLambdaTransitionChecker();
+    return null;
+  }
 
 }

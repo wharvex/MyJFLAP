@@ -172,7 +172,8 @@ public class EnvironmentFactory {
       }
     } else if (object instanceof RegularExpression) {
       RegularExpression re = (RegularExpression) object;
-      gui.regular.EditorPane editor = new gui.regular.EditorPane(re);
+      org.wharvex.jflap.gui.regular.EditorPane editor =
+          new org.wharvex.jflap.gui.regular.EditorPane(re);
       Environment env = new RegularEnvironment(re);
       env.add(editor, EDITOR_NAME, EDITOR_PERMANENT_TAG);
       return env;

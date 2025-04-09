@@ -23,6 +23,15 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    // https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-dom
+    implementation("org.apache.xmlgraphics:batik-dom:1.18")
+
+    // https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-swing
+    implementation("org.apache.xmlgraphics:batik-swing:1.18")
+
+    // https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-svggen
+    implementation("org.apache.xmlgraphics:batik-svggen:1.18")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

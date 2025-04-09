@@ -61,7 +61,7 @@ public class Universe {
    * @return an integer for the number of frames that have been registered
    * sofar, including this one
    */
-  public static int registerFrame(gui.environment.EnvironmentFrame frame) {
+  public static int registerFrame(EnvironmentFrame frame) {
     Environment env = frame.getEnvironment();
     environmentToFrame.put(env, frame);
     File file = env.getFile();
@@ -81,8 +81,7 @@ public class Universe {
    *
    * @param frame the environment frame to unregister
    */
-  public static void unregisterFrame(
-      gui.environment.EnvironmentFrame frame) {
+  public static void unregisterFrame(EnvironmentFrame frame) {
     try {
       fileToFrame.remove(getPath(frame.getEnvironment().getFile()));
     } catch (NullPointerException e) {

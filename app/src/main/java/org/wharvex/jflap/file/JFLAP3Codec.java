@@ -18,6 +18,12 @@
 package org.wharvex.jflap.file;
 
 import org.wharvex.jflap.automata.*;
+import org.wharvex.jflap.automata.fsa.FSATransition;
+import org.wharvex.jflap.automata.fsa.FiniteStateAutomaton;
+import org.wharvex.jflap.automata.pda.PDATransition;
+import org.wharvex.jflap.automata.pda.PushdownAutomaton;
+import org.wharvex.jflap.automata.turing.TMTransition;
+import org.wharvex.jflap.automata.turing.TuringMachine;
 import org.wharvex.jflap.grammar.Grammar;
 import org.wharvex.jflap.grammar.Production;
 import org.wharvex.jflap.grammar.UnboundGrammar;
@@ -153,10 +159,9 @@ public class JFLAP3Codec extends Codec {
    *
    * @param reader the source of lines in the file
    */
-  private automata.fsa.FiniteStateAutomaton readFA(BufferedReader reader)
+  private FiniteStateAutomaton readFA(BufferedReader reader)
       throws IOException {
-    automata.fsa.FiniteStateAutomaton fa =
-        new automata.fsa.FiniteStateAutomaton();
+    FiniteStateAutomaton fa = new FiniteStateAutomaton();
     // Generic states.
     State[] states = readStateCreate(fa, reader);
     String[][][] groups = readTransitionGroups(2, 1, states.length, reader);
@@ -166,7 +171,7 @@ public class JFLAP3Codec extends Codec {
         State to = states[Integer.parseInt(group[1]) - 1], from = states[s];
         if (group[0].equals("null"))
           group[0] = "";
-        Transition t = new automata.fsa.FSATransition(from, to,
+        Transition t = new FSATransition(from, to,
             group[0]);
         fa.addTransition(t);
       }
@@ -180,15 +185,14 @@ public class JFLAP3Codec extends Codec {
    *
    * @param reader the source of lines in the file
    */
-  private automata.pda.PushdownAutomaton readPDA(BufferedReader reader)
+  private PushdownAutomaton readPDA(BufferedReader reader)
       throws IOException {
     String ender = reader.readLine().trim();
     if (!(ender.equals("FINAL") || ender.equals("EMPTY") || ender
         .equals("FINAL+EMPTY")))
       throw new ParseException(ender
           + " is a bad finishing type for PDA!");
-    automata.pda.PushdownAutomaton pda =
-        new automata.pda.PushdownAutomaton();
+    PushdownAutomaton pda = new PushdownAutomaton();
     // Generic states.
     State[] states = readStateCreate(pda, reader);
     String[][][] groups = readTransitionGroups(5, 3, states.length, reader);
@@ -204,8 +208,7 @@ public class JFLAP3Codec extends Codec {
             if (group[check[i]].equals("null"))
               group[check[i]] = "";
           // Create the transition.
-          t = new automata.pda.PDATransition(from, to, group[0],
-              group[1], group[4]);
+          t = new PDATransition(from, to, group[0], group[1], group[4]);
           pda.addTransition(t);
         } catch (IllegalArgumentException e) {
           throw new ParseException(e.getMessage());
@@ -221,8 +224,7 @@ public class JFLAP3Codec extends Codec {
    *
    * @param reader the source of lines in the file
    */
-  private automata.turing.TuringMachine readTM(BufferedReader reader)
-      throws IOException {
+  private TuringMachine readTM(BufferedReader reader) throws IOException {
     if (!reader.readLine().trim().equals("TAPE"))
       throw new ParseException("Expected TAPE line absent!");
     // Try to read the number of tapes.
@@ -234,8 +236,7 @@ public class JFLAP3Codec extends Codec {
     } catch (NumberFormatException e) {
       throw new ParseException("Bad format for number of tapes!");
     }
-    automata.turing.TuringMachine tm = new automata.turing.TuringMachine(
-        tapes);
+    TuringMachine tm = new TuringMachine(tapes);
     // Generic states.
     State[] states = readStateCreate(tm, reader);
     String[][][] groups = readTransitionGroups(1 + 3 * tm.tapes(), 1,
@@ -254,11 +255,10 @@ public class JFLAP3Codec extends Codec {
               group[check[i]] = "";
           // Create the transition.
           if (tm.tapes() == 1)
-            t = new automata.turing.TMTransition(from, to,
-                group[0], group[2], group[3].toUpperCase());
+            t = new TMTransition(from, to, group[0], group[2],
+                group[3].toUpperCase());
           else
-            t = new automata.turing.TMTransition(from, to,
-                new String[]{group[0], group[4]},
+            t = new TMTransition(from, to, new String[]{group[0], group[4]},
                 new String[]{group[2], group[5]},
                 new String[]{group[3].toUpperCase(),
                     group[6].toUpperCase()});
@@ -296,7 +296,7 @@ public class JFLAP3Codec extends Codec {
       states[i] = automaton.createState(new java.awt.Point(0, 0));
     // Next possibly two lines have something to do with alphabet.
     reader.readLine();
-    if (!(automaton instanceof automata.fsa.FiniteStateAutomaton))
+    if (!(automaton instanceof FiniteStateAutomaton))
       reader.readLine();
     // Read the ID of the initial state.
     try {

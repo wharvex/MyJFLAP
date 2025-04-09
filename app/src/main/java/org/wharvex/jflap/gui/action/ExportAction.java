@@ -27,7 +27,7 @@ import java.io.*;
 
 import org.apache.batik.svggen.SVGGraphics2D;
 import org.apache.batik.svggen.SVGGeneratorContext;
-import org.apache.batik.dom.svg.SVGDOMImplementation;
+import org.apache.batik.anim.dom.SVGDOMImplementation;
 import org.apache.batik.swing.svg.SVGFileFilter;
 import org.w3c.dom.Document;
 import org.wharvex.jflap.debug.EDebug;

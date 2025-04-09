@@ -82,7 +82,7 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.tree.TreeNode;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
+// import com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
 
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.AutomatonSimulator;

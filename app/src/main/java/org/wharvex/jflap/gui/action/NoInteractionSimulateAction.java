@@ -31,6 +31,7 @@ import javax.swing.JOptionPane;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.AutomatonSimulator;
 import org.wharvex.jflap.automata.Configuration;
+import org.wharvex.jflap.gui.sim.TraceWindow;
 
 /**
  * This is the action used for the simulation of input on an automaton with no
@@ -74,8 +75,7 @@ public class NoInteractionSimulateAction extends SimulateAction {
    */
   protected boolean reportConfiguration(Configuration configuration,
                                         Component component) {
-    JComponent past = (JComponent) gui.sim.TraceWindow
-        .getPastPane(configuration);
+    JComponent past = (JComponent) TraceWindow.getPastPane(configuration);
     past.setPreferredSize(new java.awt.Dimension(300, 400));
     String[] options = {"Keep looking", "I'm done"};
     int result = JOptionPane.showOptionDialog(component, past,

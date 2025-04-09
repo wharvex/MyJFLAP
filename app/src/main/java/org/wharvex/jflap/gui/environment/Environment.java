@@ -19,6 +19,7 @@ package org.wharvex.jflap.gui.environment;
 
 import org.wharvex.jflap.file.Encoder;
 import org.wharvex.jflap.gui.action.MultipleSimulateAction.MultiplePane;
+import org.wharvex.jflap.gui.environment.tag.CriticalTag;
 import org.wharvex.jflap.gui.environment.tag.EditorTag;
 import org.wharvex.jflap.gui.environment.tag.Satisfier;
 import org.wharvex.jflap.gui.environment.tag.Tag;
@@ -34,7 +35,7 @@ import javax.swing.event.ChangeListener;
 
 import org.wharvex.jflap.debug.EDebug;
 
-import sun.security.util.Debug;
+// import sun.security.util.Debug;
 
 /**
  * The environment class is the central view that manages various "hangers on"
@@ -195,7 +196,7 @@ public abstract class Environment extends JPanel {
 
     // Takes care of the deactivation of EditorTag tagged
     // components in the event that such action is appropriate.
-    if (tags instanceof gui.environment.tag.CriticalTag) {
+    if (tags instanceof CriticalTag) {
       criticalObjects++;
       if (criticalObjects == 1)
         setEnabledEditorTagged(false);
@@ -335,7 +336,7 @@ public abstract class Environment extends JPanel {
 
     // Takes care of the deactivation of EditorTag tagged
     // components in the event that such action is appropriate.
-    if (tag instanceof gui.environment.tag.CriticalTag) {
+    if (tag instanceof CriticalTag) {
       criticalObjects--;
       if (criticalObjects == 0)
         setEnabledEditorTagged(true);

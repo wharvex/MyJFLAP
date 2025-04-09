@@ -24,6 +24,7 @@ import org.wharvex.jflap.gui.editor.EditBlockPane;
 import org.wharvex.jflap.gui.editor.EditorPane;
 import org.wharvex.jflap.gui.grammar.GrammarInputPane;
 import org.wharvex.jflap.gui.environment.Environment;
+import org.wharvex.jflap.gui.menu.MenuBarCreator;
 
 import java.awt.BorderLayout;
 import java.awt.event.ComponentEvent;
@@ -88,7 +89,7 @@ public class EnvironmentFrame extends JFrame {
         refreshTitle();
       }
     });
-    this.setJMenuBar(gui.menu.MenuBarCreator.getMenuBar(this, 0));
+    this.setJMenuBar(MenuBarCreator.getMenuBar(this, 0));
 
     this.getContentPane().setLayout(new BorderLayout());
     this.getContentPane().add(environment, BorderLayout.CENTER);
@@ -133,7 +134,7 @@ public class EnvironmentFrame extends JFrame {
    * Initializes the menu bar for this frame.
    */
   protected void initMenuBar() {
-    this.setJMenuBar(gui.menu.MenuBarCreator.getMenuBar(this));
+    this.setJMenuBar(MenuBarCreator.getMenuBar(this));
   }
 
   /**
