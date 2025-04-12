@@ -3,6 +3,8 @@
  */
 package org.wharvex.jflap;
 
+import org.wharvex.jflap.gui.GUIMain;
+
 public class App {
   public String getGreeting() {
     return "Hello World!";
@@ -10,5 +12,12 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
+    System.out.println(System.getProperty("user.dir"));
+    GUIMain.main(args, true);
+  }
+
+  public static String getBasePackageDir() {
+    return System.getProperty("user.dir") +
+        "/app/src/main/java/org/wharvex/jflap/";
   }
 }
