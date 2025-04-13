@@ -18,6 +18,6 @@ public class App {
 
   public static String getBasePackageDir() {
     return System.getProperty("user.dir") +
-        "/app/src/main/java/org/wharvex/jflap/";
+        "/src/main/java/org/wharvex/jflap/";
   }
 }

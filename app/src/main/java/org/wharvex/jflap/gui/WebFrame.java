@@ -27,6 +27,7 @@ import javax.swing.event.HyperlinkEvent;
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import javax.swing.text.html.HTMLFrameHyperlinkEvent;
 import javax.swing.text.html.HTMLDocument;
@@ -67,10 +68,10 @@ public class WebFrame extends JFrame {
     mainpanel.add(getToolBar(), BorderLayout.NORTH);
 
     String url = myHtmlFile;
-    if (!myHtmlFile.startsWith("http://")) {
-      URL u = this.getClass().getResource(myHtmlFile);
-      url = u == null ? "" : u.toString();
-    }
+//    if (!myHtmlFile.startsWith("http://")) {
+//      URL u = this.getClass().getResource(myHtmlFile);
+//      url = u == null ? "" : u.toString();
+//    }
     setContentPane(mainpanel);
     pack();
     setSize(600, 700);
@@ -177,7 +178,8 @@ public class WebFrame extends JFrame {
    */
   private void setDisplay(String url) {
     try {
-      myBrowserDisplay.setPage(url);
+      var u = Path.of(url).toUri().toURL();
+      myBrowserDisplay.setPage(u);
     } catch (IOException e) {
       // Display an alert to that effect.
       System.err.println(e);
