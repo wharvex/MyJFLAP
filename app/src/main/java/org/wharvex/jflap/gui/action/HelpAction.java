@@ -17,6 +17,7 @@
 
 package org.wharvex.jflap.gui.action;
 
+import org.wharvex.jflap.App;
 import org.wharvex.jflap.gui.WebFrame;
 
 import javax.swing.KeyStroke;
@@ -119,5 +120,6 @@ public abstract class HelpAction extends RestrictedAction {
   /**
    * The web frame.
    */
-  private static final WebFrame FRAME = new WebFrame("/DOCS/index.html");
+  private static final WebFrame FRAME = new WebFrame(
+      App.getBasePackageDir() + "DOCS/index.html");
 }
