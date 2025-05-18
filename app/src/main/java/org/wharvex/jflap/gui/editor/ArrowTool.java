@@ -108,10 +108,10 @@ public class ArrowTool extends Tool {
    * @return the arrow tool icon
    */
   protected Icon getIcon() {
-    var stackTrace = Thread.currentThread().getStackTrace();
-    for (StackTraceElement element : stackTrace) {
-      System.out.println(element);
-    }
+//    var stackTrace = Thread.currentThread().getStackTrace();
+//    for (StackTraceElement element : stackTrace) {
+//      System.out.println(element);
+//    }
     return new javax.swing.ImageIcon(
         App.getBasePackageDir() + "ICON/arrow.gif");
   }

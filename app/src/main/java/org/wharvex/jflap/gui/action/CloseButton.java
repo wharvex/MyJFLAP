@@ -25,6 +25,7 @@ import javax.swing.ImageIcon;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+import org.wharvex.jflap.App;
 import org.wharvex.jflap.automata.Automaton;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.automata.turing.TuringMachine;
@@ -96,7 +97,7 @@ public class CloseButton extends javax.swing.JButton {
    * The icon, size, and tooltip are set.
    */
   public void setDefaults() {
-    setIcon(new ImageIcon(getClass().getResource("/ICON/x.gif")));
+    setIcon(new ImageIcon(App.getBasePackageDir() + "ICON/x.gif"));
     setPreferredSize(new Dimension(22, 22));
     setToolTipText("Dismiss Tab");
   }

@@ -17,6 +17,7 @@
 
 package org.wharvex.jflap.gui.editor;
 
+import org.wharvex.jflap.App;
 import org.wharvex.jflap.automata.State;
 import org.wharvex.jflap.gui.environment.AutomatonEnvironment;
 import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
@@ -57,8 +58,7 @@ public class StateTool extends Tool {
    * @return the state tool icon
    */
   protected Icon getIcon() {
-    java.net.URL url = getClass().getResource("/ICON/state.gif");
-    return new ImageIcon(url);
+    return new ImageIcon(App.getBasePackageDir() + "ICON/state.gif");
   }
 
   /**
