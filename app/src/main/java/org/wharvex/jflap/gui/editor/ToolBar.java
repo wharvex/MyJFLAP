@@ -19,6 +19,7 @@ package org.wharvex.jflap.gui.editor;
 
 import javax.swing.*;
 
+import org.wharvex.jflap.App;
 import org.wharvex.jflap.debug.EDebug;
 
 import java.awt.Component;
@@ -32,6 +33,7 @@ import java.awt.event.ActionListener;
 
 import org.wharvex.jflap.gui.viewer.AutomatonDrawer;
 
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
 
@@ -119,7 +121,13 @@ public class ToolBar extends JToolBar implements ActionListener {
     if (tool instanceof DeleteTool) {
       Toolkit toolkit = Toolkit.getDefaultToolkit();
       //Image image = toolkit.getImage("/JFLAP09CVS/ICON/deletecursor.gif");
-      URL url = getClass().getResource("/ICON/deletecursor.gif");
+      URL url = null;
+      try {
+        url = new URL(
+            "file:///" + App.getBasePackageDir() + "ICON/deletecursor.gif");
+      } catch (MalformedURLException ex) {
+        throw new RuntimeException(ex);
+      }
       Image image = getToolkit().getImage(url);
       Point hotSpot = new Point(5, 5);
       Cursor cursor = toolkit.createCustomCursor(image, hotSpot, "Delete");
