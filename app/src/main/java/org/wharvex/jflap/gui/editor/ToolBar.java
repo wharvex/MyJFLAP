@@ -22,6 +22,8 @@ import javax.swing.*;
 import org.wharvex.jflap.App;
 import org.wharvex.jflap.debug.EDebug;
 
+import java.net.URI;
+
 import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Graphics;
@@ -119,21 +121,20 @@ public class ToolBar extends JToolBar implements ActionListener {
       view.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
     }
     if (tool instanceof DeleteTool) {
-      Toolkit toolkit = Toolkit.getDefaultToolkit();
-      //Image image = toolkit.getImage("/JFLAP09CVS/ICON/deletecursor.gif");
-      URL url = null;
       try {
-        url = new URL(
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        URI uri = URI.create(
             "file:///" + App.getBasePackageDir() + "ICON/deletecursor.gif");
+        // Java.net.MalformedURLException
+        Image image = getToolkit().getImage(uri.toURL());
+        Point hotSpot = new Point(5, 5);
+        Cursor cursor = toolkit.createCustomCursor(image, hotSpot, "Delete");
+        view.setCursor(cursor);
       } catch (MalformedURLException ex) {
-        throw new RuntimeException(ex);
+        EDebug.printStackTrace(ex);
+        // If we can't set the cursor, just use the default.
+        view.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
       }
-      Image image = getToolkit().getImage(url);
-      Point hotSpot = new Point(5, 5);
-      Cursor cursor = toolkit.createCustomCursor(image, hotSpot, "Delete");
-      view.setCursor(cursor);
-      //Cursor hourglassCursor = new Cursor(Cursor.CROSSHAIR_CURSOR);
-      //view.setCursor(hourglassCursor);
     }
   }
 
