@@ -122,6 +122,8 @@ public abstract class TableTransitionCreator extends TransitionCreator {
 
 		table.setGridColor(Color.gray);
 		table.setBorder(new javax.swing.border.EtchedBorder());
+		table.setBackground(Color.white);
+		table.setRowHeight(25);
 		return table;
 	}
 
@@ -252,7 +254,7 @@ public abstract class TableTransitionCreator extends TransitionCreator {
 		editingTable.setLocation(tablePoint);
 		editingTable.setSize(tableDimensions);
 		
-//		editingTable.editCellAt(0, 0);
+		editingTable.editCellAt(0, 0);
 		
 		editingTable.setCellSelectionEnabled(true);
 		editingTable.changeSelection(0, 0, false, false);
